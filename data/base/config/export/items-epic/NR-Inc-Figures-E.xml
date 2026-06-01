@@ -27,7 +27,7 @@
                 <HideInGovernorsBar>1</HideInGovernorsBar>
             </Effect>
             <Item>
-                <Niche>Finance</Niche> 
+                <Niche>Religion</Niche> 
                 <TradePrice><ModValue Insert="$TradePrice_Epic"/></TradePrice>
                 <BarkPool>83338</BarkPool> <!-- <GUID>83338</GUID> -->
                 <Rarity>Epic</Rarity> 
