@@ -1,12 +1,9 @@
 <!-- 
 # By Althandir / Altdolphin (Discord: althandir)
-# NOTE: 
-# GUIDs might be all over the place (not outside of my Range but inside this mod) due to my experiments all the time
-# or my stupid brain getting new Ideas all the time and never finishing something >~<
 
 ###  
 #   GUID-Ranges:  
-#   1600000xxx - 1600000xxx 
+#   1600000837 - 1600000xxx 
 #
 #
 #
@@ -39,7 +36,7 @@
 
 <!-- Add to Pools -->
 <Include File="pools/AssetList/AssetListPool.xml" />
-<Include File="pools/RewardPool/RewardPool-AllItems&Specialists.xml" />
+<Include File="pools/RewardPool/AllItems&Specialists.xml" />
 
 <!-- Add to Traderpools --> 
 <Include File="pools/Traders/pools-common.xml" />

@@ -1,0 +1,111 @@
+<ModOps>
+<!-- Item Definition GUID:1600000837 - 1600000838 | LineID:1600000837 - 1600000838 -->
+    <Group>
+        <ModOp Type="addNextSibling" GUID="106410">
+        <Asset>
+            <Template>Item</Template>
+            <Values>
+            <Standard>
+                <GUID>1600000837</GUID>
+                <Name>Specialist NR-Inc-Figures-E</Name>
+                <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                <InfoDescription>1600000838</InfoDescription>
+            </Standard>
+            <Effect>
+                <EffectScope>Radius</EffectScope> 
+                <SourceCategory>Item</SourceCategory>
+                <Buffs>
+                    <Item>
+                        <GUID>1600000838</GUID>
+                    </Item>
+                </Buffs>
+                <Targets> <!-- Targets of Buff -->
+                    <Item>
+                        <GUID>31046</GUID>
+                    </Item>
+                </Targets>
+                <HideInGovernorsBar>1</HideInGovernorsBar>
+            </Effect>
+            <Item>
+                <Niche>Finance</Niche> 
+                <TradePrice><ModValue Insert="$TradePrice_Epic"/></TradePrice>
+                <BarkPool>83338</BarkPool> <!-- <GUID>83338</GUID> -->
+                <Rarity>Epic</Rarity> 
+            </Item>
+            <Locked>
+                <DefaultLockedState>0</DefaultLockedState>
+            </Locked>
+            <Text>
+                <OasisId>1600000837</OasisId>
+            </Text>
+            </Values>
+        </Asset>
+        </ModOp>
+    </Group>
+
+    <!-- Buff Definitions-->
+    <Group>
+    <!-- BuildingBuff Definition -->
+    <ModOp Type="addNextSibling" GUID="80193">
+        <Asset>
+            <Template>BuildingBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1600000838</GUID>
+                    <Name>Specialist NR-Inc-Figures-E BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                </Standard>
+                <Text>
+                    <OasisId>1600000837</OasisId>
+                </Text>
+                <Buff>
+                    <SourceCategory>Item</SourceCategory>
+                </Buff>
+                <ResidenceUpgrade>
+                    <GoodConsumptionUpgrade>
+                        <Item>
+                            <ProvidedNeed>145220</ProvidedNeed>
+                            <AmountInPercent><ModValue Insert="$ConsumptionModifier"/></AmountInPercent>
+                        </Item>
+                    </GoodConsumptionUpgrade>
+                    <NeedProvidedNeedAttributes>
+                        <ChangeNeedAttributesOf>
+                            <Item>
+                                <ProvidedProduct>145220</ProvidedProduct> <!-- <GUID>145220</GUID> -->
+                            </Item>
+                        </ChangeNeedAttributesOf>
+                        <AdditionalNeedAttributes>
+                            <Money>
+                                <AmountOrPercent>
+                                    <Value>1</Value>
+                                    <Percental>0</Percental>
+                                </AmountOrPercent>
+                            </Money>
+                            <Belief>
+                                <AmountOrPercent>
+                                    <Value>1</Value>
+                                    <Percental>0</Percental>
+                                </AmountOrPercent>
+                            </Belief>
+                            <Happiness>
+                                <AmountOrPercent>
+                                    <Value>1</Value>
+                                    <Percental>0</Percental>
+                                </AmountOrPercent>
+                            </Happiness>
+                            <FireSafety>
+                                <AmountOrPercent>
+                                    <Value>1</Value>
+                                    <Percental>0</Percental>
+                                </AmountOrPercent>
+                            </FireSafety>
+                        </AdditionalNeedAttributes>
+                    </NeedProvidedNeedAttributes>
+                </ResidenceUpgrade>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+    </Group>
+
+</ModOps>

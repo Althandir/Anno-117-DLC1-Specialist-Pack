@@ -1,0 +1,9 @@
+<ModOps>
+<!-- RewardPool Common Caecilia -->
+<Group>
+    <ModOp Type="add" GUID="145403" Path="/Values/RewardPool/ItemsPool">
+    
+    </ModOp>
+</Group>
+
+</ModOps>

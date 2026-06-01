@@ -1,5 +1,5 @@
 {
-  "ModID": "althandir-altdolphin-<Placeholder>-pack",
+  "ModID": "althandir-altdolphin-dlc1-specialists-pack",
   "Version": "1.0.0",
   "Anno": 8,
   "IncompatibleIds": null,
@@ -8,7 +8,13 @@
     
   ],
   "Difficulty": "easier",
-  "DLCDependencies": null,
+  "Dependencies": {
+    "Require": ["DLC 1"],
+    "Optional": [],
+    "LoadAfter": [],
+    "Deprecate": [],
+    "Incompatible": []
+  },
   "GameSetup": {
     "RequiresNewGame": false,
     "SafeToRemove": true,
@@ -17,47 +23,70 @@
   },
 
   "ModName": {
-    "English": " <Placeholder> Pack by Althandir / Altdolphin",
+    "English": " DLC1-Specialists-Pack by Althandir / Altdolphin",
     "German": "Beispiel Pack von Althandir / Altdolphin",
-    "French": "[EN]  <Placeholder> Pack by Althandir / Altdolphin",
-    "Italian": "[EN]  <Placeholder> Pack by Althandir / Altdolphin",
-    "Polish": "[EN]  <Placeholder> Pack by Althandir / Altdolphin",
-    "Spanish": "[EN]  <Placeholder> Pack by Althandir / Altdolphin",
-    "Chinese": "[EN]  <Placeholder> Pack by Althandir / Altdolphin",
-    "Japanese": "[EN]  <Placeholder> Pack by Althandir / Altdolphin",
-    "Korean": "[EN]  <Placeholder> Pack by Althandir / Altdolphin",
-    "Taiwanese": "[EN]  <Placeholder> Pack by Althandir / Altdolphin",
-    "Russian": "[EN]  <Placeholder> Pack by Althandir / Altdolphin"
+    "French": "[EN]  DLC1-Specialists-Pack by Althandir / Altdolphin",
+    "Italian": "[EN]  DLC1-Specialists-Pack by Althandir / Altdolphin",
+    "Polish": "[EN]  DLC1-Specialists-Pack by Althandir / Altdolphin",
+    "Spanish": "[EN]  DLC1-Specialists-Pack by Althandir / Altdolphin",
+    "Chinese": "[EN]  DLC1-Specialists-Pack by Althandir / Altdolphin",
+    "Japanese": "[EN]  DLC1-Specialists-Pack by Althandir / Altdolphin",
+    "Korean": "[EN]  DLC1-Specialists-Pack by Althandir / Altdolphin",
+    "Taiwanese": "[EN]  DLC1-Specialists-Pack by Althandir / Altdolphin",
+    "Russian": "[EN]  DLC1-Specialists-Pack by Althandir / Altdolphin"
   },
   "Description": {
-    "English": "Adds new Specialists focused on <Placeholder> to Anno 117.",
-    "German": "Fügt neue Spezialisten mit Fokus auf <Placeholder> zu Anno 117 hinzu.",
-    "French": "[EN] Adds new Specialists focused on <Placeholder> to Anno 117.",
-    "Italian": "[EN] Adds new Specialists focused on <Placeholder> to Anno 117.",
-    "Polish": "[EN] Adds new Specialists focused on <Placeholder> to Anno 117.",
-    "Spanish": "[EN] Adds new Specialists focused on <Placeholder> to Anno 117.",
-    "Chinese": "[EN] Adds new Specialists focused on <Placeholder> to Anno 117.",
-    "Japanese": "[EN] Adds new Specialists focused on <Placeholder> to Anno 117.",
-    "Korean": "[EN] Adds new Specialists focused on <Placeholder> to Anno 117.",
-    "Taiwanese": "[EN] Adds new Specialists focused on <Placeholder> to Anno 117.",
-    "Russian": "[EN] Adds new Specialists focused on <Placeholder> to Anno 117."
+    "English": "Adds new Specialists focused on the DLC1 Content to Anno 117.",
+    "German": "Fügt neue Spezialisten mit Fokus auf Inhalte vom DLC1 zu Anno 117 hinzu.",
+    "French": "[EN] Adds new Specialists focused on DLC1 Content to Anno 117.",
+    "Italian": "[EN] Adds new Specialists focused on DLC1 Content to Anno 117.",
+    "Polish": "[EN] Adds new Specialists focused on DLC1 Content to Anno 117.",
+    "Spanish": "[EN] Adds new Specialists focused on DLC1 Content to Anno 117.",
+    "Chinese": "[EN] Adds new Specialists focused on DLC1 Content to Anno 117.",
+    "Japanese": "[EN] Adds new Specialists focused on DLC1 Content to Anno 117.",
+    "Korean": "[EN] Adds new Specialists focused on DLC1 Content to Anno 117.",
+    "Taiwanese": "[EN] Adds new Specialists focused on DLC1 Content to Anno 117.",
+    "Russian": "[EN] Adds new Specialists focused on DLC1 Content to Anno 117."
   },
   "Category": {
-    "English": "Gameplay",
-    "German": "Gameplay",
-    "French": "Gameplay",
-    "Italian": "Gameplay",
-    "Polish": "Gameplay",
-    "Spanish": "Gameplay",
-    "Chinese": "Gameplay",
-    "Japanese": "Gameplay",
-    "Korean": "Gameplay",
-    "Taiwanese": "Gameplay",
-    "Russian": "Gameplay"
+    "English": "Content",
+    "German": "Content",
+    "French": "Content",
+    "Italian": "Content",
+    "Polish": "Content",
+    "Spanish": "Content",
+    "Chinese": "Content",
+    "Japanese": "Content",
+    "Korean": "Content",
+    "Taiwanese": "Content",
+    "Russian": "Content"
   },
 
   "CreatorName": "Althandir / Altdolphin",
   "CreatorContact": "althandir via Anno-Modding-Discord",
-  "Image": "ModListingImg.png"
+  "Image": "ModListingImg.png",
 
+  "Options": 
+  {
+    "TradePrice_Common":
+    {
+      "default": "5040"
+    },
+    "TradePrice_Rare":
+    {
+      "default": "12600"
+    },
+    "TradePrice_Epic":
+    {
+      "default": "21840"
+    },
+    "TradePrice_Legendary":
+    {
+      "default": "33600"
+    },
+    "ConsumptionModifier":
+    {
+      "default": "25"
+    }
+  }
 }
