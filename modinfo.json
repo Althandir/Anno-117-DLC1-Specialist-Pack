@@ -1,0 +1,63 @@
+{
+  "ModID": "althandir-altdolphin-<Placeholder>-pack",
+  "Version": "1.0.0",
+  "Anno": 8,
+  "IncompatibleIds": null,
+  "ModDependencies": null,
+  "LoadAfterIds": [  
+    
+  ],
+  "Difficulty": "easier",
+  "DLCDependencies": null,
+  "GameSetup": {
+    "RequiresNewGame": false,
+    "SafeToRemove": true,
+    "Multiplayer": true,
+    "Campaign": true
+  },
+
+  "ModName": {
+    "English": " <Placeholder> Pack by Althandir / Altdolphin",
+    "German": "Beispiel Pack von Althandir / Altdolphin",
+    "French": "[EN]  <Placeholder> Pack by Althandir / Altdolphin",
+    "Italian": "[EN]  <Placeholder> Pack by Althandir / Altdolphin",
+    "Polish": "[EN]  <Placeholder> Pack by Althandir / Altdolphin",
+    "Spanish": "[EN]  <Placeholder> Pack by Althandir / Altdolphin",
+    "Chinese": "[EN]  <Placeholder> Pack by Althandir / Altdolphin",
+    "Japanese": "[EN]  <Placeholder> Pack by Althandir / Altdolphin",
+    "Korean": "[EN]  <Placeholder> Pack by Althandir / Altdolphin",
+    "Taiwanese": "[EN]  <Placeholder> Pack by Althandir / Altdolphin",
+    "Russian": "[EN]  <Placeholder> Pack by Althandir / Altdolphin"
+  },
+  "Description": {
+    "English": "Adds new Specialists focused on <Placeholder> to Anno 117.",
+    "German": "Fügt neue Spezialisten mit Fokus auf <Placeholder> zu Anno 117 hinzu.",
+    "French": "[EN] Adds new Specialists focused on <Placeholder> to Anno 117.",
+    "Italian": "[EN] Adds new Specialists focused on <Placeholder> to Anno 117.",
+    "Polish": "[EN] Adds new Specialists focused on <Placeholder> to Anno 117.",
+    "Spanish": "[EN] Adds new Specialists focused on <Placeholder> to Anno 117.",
+    "Chinese": "[EN] Adds new Specialists focused on <Placeholder> to Anno 117.",
+    "Japanese": "[EN] Adds new Specialists focused on <Placeholder> to Anno 117.",
+    "Korean": "[EN] Adds new Specialists focused on <Placeholder> to Anno 117.",
+    "Taiwanese": "[EN] Adds new Specialists focused on <Placeholder> to Anno 117.",
+    "Russian": "[EN] Adds new Specialists focused on <Placeholder> to Anno 117."
+  },
+  "Category": {
+    "English": "Gameplay",
+    "German": "Gameplay",
+    "French": "Gameplay",
+    "Italian": "Gameplay",
+    "Polish": "Gameplay",
+    "Spanish": "Gameplay",
+    "Chinese": "Gameplay",
+    "Japanese": "Gameplay",
+    "Korean": "Gameplay",
+    "Taiwanese": "Gameplay",
+    "Russian": "Gameplay"
+  },
+
+  "CreatorName": "Althandir / Altdolphin",
+  "CreatorContact": "althandir via Anno-Modding-Discord",
+  "Image": "ModListingImg.png"
+
+}
