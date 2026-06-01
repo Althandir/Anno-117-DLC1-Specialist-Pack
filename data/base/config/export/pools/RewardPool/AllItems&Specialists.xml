@@ -1,6 +1,6 @@
 <ModOps>
 <!-- Add to RewardPools -->
-<!-- RewardList All Items & Specialists Items & All DLC01 Items-->
+<!-- RewardList All Items & Specialists Items -->
 <Group>
     <ModOp Type="add" GUID="43037,82598," Path="/Values/RewardPool/ItemsPool">
         <Item>

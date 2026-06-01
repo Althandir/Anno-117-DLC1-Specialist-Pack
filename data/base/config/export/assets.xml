@@ -16,17 +16,17 @@
 <ModOps>
 <!-- Common Specialists -->
 <Group>
-    <Include File="items-common/Test-C.xml" />
+
 </Group>
 
 <!-- Rare Specialists -->
 <Group>
-
+    <Include File="items-rare/AE-ReInput-Figur-IronRObsi-R.xml" />
 </Group>
 
 <!-- Epic Specialists -->
 <Group>
-
+    <Include File="items-epic/NR-Inc-Figures-E.xml" />
 </Group>
 
 <!-- Legendary Specialists -->

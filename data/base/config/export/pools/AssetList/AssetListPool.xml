@@ -1,6 +1,6 @@
 <ModOps>
 
-<!-- Add to AssetList -->
+<!-- Add to AssetList DLC01 Items -->
 <Group>
     <ModOp Type="add" GUID="148087" Path="/Values/AssetPool/AssetList">
         <Item>
