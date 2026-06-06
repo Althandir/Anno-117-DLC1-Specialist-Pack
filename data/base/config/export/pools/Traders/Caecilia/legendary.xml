@@ -2,7 +2,12 @@
 <!-- RewardPool Legendary Caecilia -->
 <Group>
     <ModOp Type="add" GUID="145406" Path="/Values/RewardPool/ItemsPool">
-
+    <Item>
+        <ItemLink>1600000853</ItemLink>
+    </Item>
+    <Item>
+        <ItemLink>1600000864</ItemLink>
+    </Item>
     </ModOp>
 </Group>
 

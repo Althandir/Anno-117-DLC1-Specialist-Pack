@@ -1,0 +1,279 @@
+<ModOps>
+<!-- Item Definition GUID:1600000853 - 1600000859 | LineID:1600000853 - 1600000855  -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="106410">
+      <Asset>
+        <Template>ItemWithBoost</Template>
+        <Values>
+            <Standard>
+                <GUID>1600000853</GUID>
+                <Name>Specialist AE-MajorVulcanShrine-L</Name>
+                <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                <InfoDescription>1600000854</InfoDescription>
+            </Standard>
+            <Effect>
+                <EffectScope>Radius</EffectScope>  
+                <SourceCategory>Item</SourceCategory>
+                <Buffs>
+                    <Item>
+                        <GUID>1600000854</GUID>
+                    </Item>
+                </Buffs>
+                <Targets> <!-- Targets of Buff -->
+                <Item>
+                    <GUID>144814</GUID>
+                </Item>
+                </Targets>
+                <HideInGovernorsBar>1</HideInGovernorsBar>
+            </Effect>
+            <Item>
+                <Niche>Religion</Niche>  
+                <TradePrice><ModValue Insert="$TradePrice_Legendary"/></TradePrice> 
+                <BarkPool>83343</BarkPool> <!-- <GUID>83343</GUID> -->
+                <Rarity>Legendary</Rarity> 
+                <Origin>DLC01</Origin> 
+            </Item>
+            <Locked>
+                <DefaultLockedState>0</DefaultLockedState>
+            </Locked>
+            <Text>
+                <OasisId>1600000853</OasisId>
+            </Text>
+
+            <ItemWithBoost>
+                <BoostCondition>
+                <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                <Values>
+                    <PreConditionList>
+                        <!-- Condition 1 - 5x same Shrine on Area -->
+                        <Condition>
+                            <Template>ConditionObjectCount</Template>
+                            <Values>
+                                <Condition/>
+                                <ConditionObjectCount>
+                                    <Amount>5</Amount>
+                                </ConditionObjectCount>
+                                <ObjectFilter>
+                                    <ObjectGUID>144814</ObjectGUID>
+                                    <ObjectLocations>
+                                        <Template>LocationFilter</Template>
+                                        <Values>
+                                            <LocationFilter>
+                                                <ObjectLocations>
+                                                    <ObjectFilter>
+                                                        <Template>ObjectFilter</Template>
+                                                        <Values>
+                                                            <ObjectFilter>
+                                                                <UseContextObjects>1</UseContextObjects>
+                                                            </ObjectFilter>
+                                                        </Values>
+                                                    </ObjectFilter>
+                                                </ObjectLocations>
+                                            </LocationFilter>
+                                        </Values>
+                                    </ObjectLocations>
+                                </ObjectFilter>
+                            </Values>
+                        </Condition>
+                    </PreConditionList>
+                </Values>
+                </BoostCondition>
+                <BoostBuffs>
+                <Item>
+                    <GUID>1600000857</GUID>
+                </Item>
+                </BoostBuffs>
+                <BoostHint>1600000855</BoostHint>
+            </ItemWithBoost>
+
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
+  <!-- Buff Definitions-->
+  <Group>
+    <!-- Normal Definition -->
+    <ModOp Type="addNextSibling" GUID="80193">
+        <Asset>
+            <Template>BuildingBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1600000854</GUID>
+                    <Name>Specialist AE-MajorVulcanShrine-L BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                </Standard>
+                <Text>
+                    <OasisId>1600000853</OasisId>
+                </Text>
+                <BuildingUpgrade>
+                    <AdditionalFunctionalEffect>1600000855</AdditionalFunctionalEffect>
+                </BuildingUpgrade>
+                <Buff>
+                    <SourceCategory>Item</SourceCategory>
+                </Buff>
+                <MaintenanceUpgrade>
+                    <MaintenanceFactorUpgrade>
+                        <Value>-50</Value>
+                        <Percental>1</Percental>
+                    </MaintenanceFactorUpgrade>
+                </MaintenanceUpgrade>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+    <ModOp Type="addNextSibling" GUID="135498">
+        <Asset>
+            <Template>Effect</Template>
+            <Values>
+                <Standard>
+                    <GUID>1600000855</GUID>
+                    <Name>Specialist AE-MajorVulcanShrine-L FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                </Standard>
+                <Effect>
+                    <EffectScope>StreetDistance</EffectScope>
+                    <SourceCategory>Adjacency</SourceCategory>
+                    <Buffs>
+                        <Item>
+                            <GUID>1600000856</GUID>
+                        </Item>
+                    </Buffs>
+                    <Targets>
+                        <Item>
+                            <GUID>43097</GUID>
+                        </Item>
+                    </Targets>
+                    <ExcludeEffectSourceGUID>0</ExcludeEffectSourceGUID>
+                    <HideInGovernorsBar>1</HideInGovernorsBar>
+                </Effect>
+                <Text>
+                    <OasisId>1600000853</OasisId>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="80193">
+        <Asset>
+            <Template>BuildingBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1600000856</GUID>
+                    <Name>Specialist AE-MajorVulcanShrine-L FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                </Standard>
+                <Text>
+                    <OasisId>1600000853</OasisId>
+                </Text>
+                <BuildingUpgrade>
+                    <AdditionalAttributes>
+                        <FireSafety>
+                            <AmountOrPercent>
+                                <Value>3</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </FireSafety>
+                    </AdditionalAttributes>
+                </BuildingUpgrade>
+                <Buff>
+                    <SourceCategory>Adjacency</SourceCategory>
+                </Buff>
+            </Values>
+        </Asset>
+    </ModOp>
+  </Group>
+
+    <Group>
+    <!-- Boosted Definition -->
+    <ModOp Type="addNextSibling" GUID="80193">
+        <Asset>
+            <Template>BuildingBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1600000857</GUID>
+                    <Name>Specialist AE-MajorVulcanShrine-L Boosted BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                </Standard>
+                <Text>
+                    <OasisId>1600000853</OasisId>
+                </Text>
+                <BuildingUpgrade>
+                    <AdditionalFunctionalEffect>1600000858</AdditionalFunctionalEffect>
+                </BuildingUpgrade>
+                <Buff>
+                    <SourceCategory>Item</SourceCategory>
+                </Buff>
+                <MaintenanceUpgrade>
+                    <MaintenanceFactorUpgrade>
+                        <Value>-100</Value>
+                        <Percental>1</Percental>
+                    </MaintenanceFactorUpgrade>
+                </MaintenanceUpgrade>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+    <ModOp Type="addNextSibling" GUID="135498">
+        <Asset>
+            <Template>Effect</Template>
+            <Values>
+                <Standard>
+                    <GUID>1600000858</GUID>
+                    <Name>Specialist AE-MajorVulcanShrine-L Boosted FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                </Standard>
+                <Effect>
+                    <EffectScope>StreetDistance</EffectScope>
+                    <SourceCategory>Adjacency</SourceCategory>
+                    <Buffs>
+                        <Item>
+                            <GUID>1600000859</GUID>
+                        </Item>
+                    </Buffs>
+                    <Targets>
+                        <Item>
+                            <GUID>43097</GUID>
+                        </Item>
+                    </Targets>
+                    <ExcludeEffectSourceGUID>0</ExcludeEffectSourceGUID>
+                    <HideInGovernorsBar>1</HideInGovernorsBar>
+                </Effect>
+                <Text>
+                    <OasisId>1600000853</OasisId>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="80193">
+        <Asset>
+            <Template>BuildingBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1600000859</GUID>
+                    <Name>Specialist AE-MajorVulcanShrine-L Boosted FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                </Standard>
+                <Text>
+                    <OasisId>1600000853</OasisId>
+                </Text>
+                <BuildingUpgrade>
+                    <AdditionalAttributes>
+                        <FireSafety>
+                            <AmountOrPercent>
+                                <Value>6</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </FireSafety>
+                    </AdditionalAttributes>
+                </BuildingUpgrade>
+                <Buff>
+                    <SourceCategory>Adjacency</SourceCategory>
+                </Buff>
+            </Values>
+        </Asset>
+    </ModOp>
+    </Group>
+
+</ModOps>

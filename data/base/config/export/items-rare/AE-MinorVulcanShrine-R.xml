@@ -1,0 +1,142 @@
+<ModOps>
+<!-- Item Definition GUID:1600000849 - 1600000852 | LineID:1600000849 - 1600000850  -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="106410">
+      <Asset>
+        <Template>Item</Template>
+        <Values>
+            <Standard>
+                <GUID>1600000849</GUID>
+                <Name>Specialist AE-MinorVulcanShrine-R</Name>
+                <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                <InfoDescription>1600000850</InfoDescription>
+            </Standard>
+            <Effect>
+                <EffectScope>Radius</EffectScope>  
+                <SourceCategory>Item</SourceCategory>
+                <Buffs>
+                    <Item>
+                        <GUID>1600000850</GUID>
+                    </Item>
+                </Buffs>
+                <Targets> <!-- Targets of Buff -->
+                    <Item>
+                        <GUID>144814</GUID>
+                    </Item>
+                </Targets>
+                <HideInGovernorsBar>1</HideInGovernorsBar>
+            </Effect>
+            <Item>
+                <Niche>Religion</Niche>  
+                <TradePrice><ModValue Insert="$TradePrice_Rare"/></TradePrice> 
+                <BarkPool>80244</BarkPool> <!-- <GUID>80244</GUID> -->
+                <Rarity>Rare</Rarity>
+                <Origin>DLC01</Origin>  
+            </Item>
+            <Locked>
+                <DefaultLockedState>0</DefaultLockedState>
+            </Locked>
+            <Text>
+                <OasisId>1600000849</OasisId>
+            </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
+  <!-- Buff Definitions-->
+  <Group>
+    <!-- Buff Definition -->
+    <ModOp Type="addNextSibling" GUID="80193">
+        <Asset>
+            <Template>BuildingBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1600000850</GUID>
+                    <Name>Specialist AE-MinorVulcanShrine-R BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                </Standard>
+                <Text>
+                    <OasisId>1600000849</OasisId>
+                </Text>
+                <BuildingUpgrade>
+                    <AdditionalFunctionalEffect>1600000851</AdditionalFunctionalEffect>
+                    <AdditionalAttributes>
+                        <Belief>
+                            <AmountOrPercent>
+                                <Value>0</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </Belief>
+                    </AdditionalAttributes>
+                </BuildingUpgrade>
+                <Buff>
+                    <SourceCategory>Item</SourceCategory>
+                </Buff>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+    <ModOp Type="addNextSibling" GUID="135498">
+        <Asset>
+            <Template>Effect</Template>
+            <Values>
+                <Standard>
+                    <GUID>1600000851</GUID>
+                    <Name>Specialist AE-MinorVulcanShrine-R FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                </Standard>
+                <Effect>
+                    <EffectScope>StreetDistance</EffectScope>
+                    <SourceCategory>Adjacency</SourceCategory>
+                    <Buffs>
+                        <Item>
+                            <GUID>1600000852</GUID>
+                        </Item>
+                    </Buffs>
+                    <Targets>
+                        <Item>
+                            <GUID>43097</GUID>
+                        </Item>
+                    </Targets>
+                    <ExcludeEffectSourceGUID>0</ExcludeEffectSourceGUID>
+                    <HideInGovernorsBar>1</HideInGovernorsBar>
+                </Effect>
+                <Text>
+                    <OasisId>1600000849</OasisId>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="80193">
+        <Asset>
+            <Template>BuildingBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1600000852</GUID>
+                    <Name>Specialist AE-MinorVulcanShrine-R FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                </Standard>
+                <Text>
+                    <OasisId>1600000849</OasisId>
+                </Text>
+                <BuildingUpgrade>
+                    <AdditionalAttributes>
+                      <FireSafety>
+                          <AmountOrPercent>
+                              <Value>2.0</Value>
+                              <Percental>0</Percental>
+                          </AmountOrPercent>
+                      </FireSafety>
+                    </AdditionalAttributes>
+                </BuildingUpgrade>
+                <Buff>
+                    <SourceCategory>Adjacency</SourceCategory>
+                </Buff>
+            </Values>
+        </Asset>
+    </ModOp>
+  </Group>
+
+</ModOps>

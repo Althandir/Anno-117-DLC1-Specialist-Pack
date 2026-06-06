@@ -1,46 +1,47 @@
 <ModOps>
-<!-- Item Definition GUID:1600000839 - 1600000842 | LineID:1600000839 - 1600000840 -->
+<!-- Item Definition GUID:1600000866 - 1600000869 | LineID:1600000866 - 1600000867 -->
   <Group>
     <ModOp Type="addNextSibling" GUID="106410">
       <Asset>
         <Template>Item</Template>
         <Values>
-          <Standard>
-            <GUID>1600000839</GUID>
-            <Name>Specialist AE-ReInput-Figur-IronRObsi-R</Name>
-            <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
-            <InfoDescription>1600000840</InfoDescription>
-          </Standard>
-          <Effect>
-            <EffectScope>Radius</EffectScope>  
-            <SourceCategory>Item</SourceCategory>
-            <Buffs>
-              <Item>
-                <GUID>1600000840</GUID>
-              </Item>
-            </Buffs>
-            <Targets> <!-- Targets of Buff -->
-              <Item>
-                <GUID>145229</GUID>
-              </Item>
-            </Targets>
-            <HideInGovernorsBar>1</HideInGovernorsBar>
-          </Effect>
-          <Item>
-            <Niche>Economy</Niche> 
-            <TradePrice><ModValue Insert="$TradePrice_Rare"/></TradePrice> 
-            <BarkPool>83312</BarkPool> <!-- <GUID>83312</GUID> -->
-            <Rarity>Rare</Rarity> 
-          </Item>
-          <Locked>
-            <DefaultLockedState>0</DefaultLockedState>
-          </Locked>
-          <Text>
-            <OasisId>1600000839</OasisId>
-          </Text>
+            <Standard>
+                <GUID>1600000866</GUID>
+                <Name>Specialist AE-FuelC-Belief-R</Name>
+                <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                <InfoDescription>1600000867</InfoDescription>
+            </Standard>
+            <Effect>
+                <EffectScope>Radius</EffectScope>  
+                <SourceCategory>Item</SourceCategory>
+                <Buffs>
+                    <Item>
+                        <GUID>1600000867</GUID>
+                    </Item>
+                </Buffs>
+                <Targets> <!-- Targets of Buff -->
+                    <Item>
+                        <GUID>71197</GUID>
+                    </Item>
+                </Targets>
+                <HideInGovernorsBar>1</HideInGovernorsBar>
+            </Effect>
+            <Item>
+                <Niche>Religion</Niche> 
+                <TradePrice><ModValue Insert="$TradePrice_Rare"/></TradePrice> 
+                <BarkPool>83312</BarkPool> <!-- <GUID>83312</GUID> -->
+                <Rarity>Rare</Rarity>
+                <Origin>DLC01</Origin> 
+            </Item>
+            <Locked>
+                <DefaultLockedState>0</DefaultLockedState>
+            </Locked>
+            <Text>
+                <OasisId>1600000866</OasisId>
+            </Text>
 
-        </Values>
-      </Asset>
+            </Values>
+        </Asset>
     </ModOp>
   </Group>
 
@@ -52,15 +53,15 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000840</GUID>
-                    <Name>Specialist AE-ReInput-Figur-IronRObsi-R BuildingBuff</Name>
+                    <GUID>1600000867</GUID>
+                    <Name>Specialist AE-FuelC-Belief-R BuildingBuff</Name>
                     <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000839</OasisId>
+                    <OasisId>1600000866</OasisId>
                 </Text>
                 <BuildingUpgrade>
-                    <AdditionalFunctionalEffect>1600000841</AdditionalFunctionalEffect>
+                    <AdditionalFunctionalEffect>1600000868</AdditionalFunctionalEffect>
                 </BuildingUpgrade>
                 <Buff>
                     <SourceCategory>Item</SourceCategory>
@@ -70,7 +71,7 @@
                     <ReplaceInputs>
                         <Item>
                             <OldInput>145102</OldInput>
-                            <NewInput>2115</NewInput>
+                            <NewInput>13810</NewInput>
                         </Item>
                     </ReplaceInputs>
                 </FactoryUpgrade>
@@ -83,8 +84,8 @@
             <Template>Effect</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000841</GUID>
-                    <Name>Specialist AE-ReInput-Figur-IronRObsi-R FunctionalEffect</Name>
+                    <GUID>1600000868</GUID>
+                    <Name>Specialist AE-FuelC-Belief-R FunctionalEffect</Name>
                     <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
                 </Standard>
                 <Effect>
@@ -92,7 +93,7 @@
                     <SourceCategory>Adjacency</SourceCategory>
                     <Buffs>
                         <Item>
-                            <GUID>1600000842</GUID>
+                            <GUID>1600000869</GUID>
                         </Item>
                     </Buffs>
                     <Targets>
@@ -104,7 +105,7 @@
                     <HideInGovernorsBar>1</HideInGovernorsBar>
                 </Effect>
                 <Text>
-                    <OasisId>1600000839</OasisId>
+                    <OasisId>1600000866</OasisId>
                 </Text>
             </Values>
         </Asset>
@@ -115,21 +116,27 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000842</GUID>
-                    <Name>Specialist AE-ReInput-Figur-IronRObsi-R FunctionalEffect BuildingBuff</Name>
+                    <GUID>1600000869</GUID>
+                    <Name>Specialist AE-FuelC-Belief-R FunctionalEffect BuildingBuff</Name>
                     <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000839</OasisId>
+                    <OasisId>1600000866</OasisId>
                 </Text>
                 <BuildingUpgrade>
                     <AdditionalAttributes>
-                        <Prestige>
+                        <FireSafety>
                             <AmountOrPercent>
-                                <Value>-5</Value>
+                                <Value>-1.5</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
-                        </Prestige>
+                        </FireSafety>
+                        <Belief>
+                            <AmountOrPercent>
+                                <Value>3</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </Belief>
                     </AdditionalAttributes>
                 </BuildingUpgrade>
                 <Buff>

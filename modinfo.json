@@ -68,6 +68,10 @@
 
   "Options": 
   {
+    "CanSpawnAtAllTraders":
+    {
+      "default": "false"
+    },
     "TradePrice_Common":
     {
       "default": "5040"
@@ -86,7 +90,35 @@
     },
     "ConsumptionModifier":
     {
-      "default": "25"
+      "default": "20"
+    },
+    "Productivity_VulcanOther":
+    {
+      "default": "35"
+    },
+    "Productivity_CoalMine-L_NonBoosted":
+    {
+      "default": "75"
+    },
+    "Productivity_CoalMine-L_Boosted":
+    {
+      "default": "100"
+    },
+    "MaintenanceFactorUpgrade_CoalMine-L_Boosted":
+    {
+      "default": "-100"
+    },
+    "WorkforceFactorUpgrade_CoalMine-L_Boosted":
+    {
+      "default": "-100"
+    },
+    "MaintenanceFactorUpgrade_FuelConsumer-E":
+    {
+      "default": "-80"
+    },
+    "WorkforceFactorUpgrade_FuelConsumer-E":
+    {
+      "default": "-66"
     }
   }
 }

@@ -16,22 +16,28 @@
 <ModOps>
 <!-- Common Specialists -->
 <Group>
-
+    <Include File="items-common/AE-ReInput-Figur-ArmorRObsi-C.xml" />
+    <Include File="items-common/AE-ReInput-Boards-ArmorRObsi-C.xml" />
 </Group>
 
 <!-- Rare Specialists -->
 <Group>
-    <Include File="items-rare/AE-ReInput-Figur-IronRObsi-R.xml" />
+    <Include File="items-rare/AE-FuelC-Belief-R.xml" />
+    <Include File="items-rare/AE-MinorVulcanShrine-R.xml" />
 </Group>
 
 <!-- Epic Specialists -->
 <Group>
     <Include File="items-epic/NR-Inc-Figures-E.xml" />
+    <Include File="items-epic/NR-Inc-Boards-E.xml" />
+    <Include File="items-epic/Prod-Vulcan-E.xml" />
+    <Include File="items-epic/Upkeep-FuelConsumer-E.xml" />
 </Group>
 
 <!-- Legendary Specialists -->
 <Group>
-
+    <Include File="items-legendary/AE-MajorVulcanShrine-L.xml" />
+    <Include File="items-legendary/Prod-CoalMine-L.xml" />
 </Group>
 
 <!-- Add to Pools -->
@@ -43,6 +49,10 @@
 <Include File="pools/Traders/Caecilia/rare.xml" />
 <Include File="pools/Traders/Caecilia/epic.xml" />
 <Include File="pools/Traders/Caecilia/legendary.xml" />
+
+<Group Condition="$CanSpawnAtAllTraders">
+  
+</Group>
 
 
 </ModOps>

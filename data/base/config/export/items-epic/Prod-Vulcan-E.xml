@@ -1,0 +1,76 @@
+<ModOps>
+<!-- Item Definition GUID:1600000860 - 1600000861 | LineID:1600000860 - 1600000861 -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="106410">
+      <Asset>
+        <Template>Item</Template>
+        <Values>
+          <Standard>
+            <GUID>1600000860</GUID>
+            <Name>Specialist Prod-Vulcan-E</Name>
+            <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+            <InfoDescription>1600000861</InfoDescription>
+          </Standard>
+          <Effect>
+            <EffectScope>Radius</EffectScope> 
+            <SourceCategory>Item</SourceCategory>
+            <Buffs>
+              <Item>
+                <GUID>1600000861</GUID>
+              </Item>
+            </Buffs>
+            <Targets> 
+              <Item>
+                <GUID>144801</GUID>
+              </Item>
+            </Targets>
+            <HideInGovernorsBar>1</HideInGovernorsBar>
+          </Effect>
+          <Item>
+            <Niche>Economy</Niche> 
+            <TradePrice><ModValue Insert="$TradePrice_Epic"/></TradePrice>
+            <BarkPool>80242</BarkPool> <!-- <GUID>80242</GUID> -->
+            <Rarity>Epic</Rarity>
+            <Origin>DLC01</Origin> 
+          </Item>
+          <Locked>
+            <DefaultLockedState>0</DefaultLockedState>
+          </Locked>
+          <Text>
+            <OasisId>1600000860</OasisId>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
+  <!-- Buff Definitions-->
+  <Group>
+    <!-- BuildingEffect Definition -->
+    <ModOp Type="addNextSibling" GUID="80193">
+        <Asset>
+            <Template>BuildingBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1600000861</GUID>
+                    <Name>Specialist Prod-Vulcan-E BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                </Standard>
+                <Text>
+                    <OasisId>1600000860</OasisId>
+                </Text>
+                <Buff>
+                    <SourceCategory>Item</SourceCategory>
+                </Buff>
+                <FactoryUpgrade>
+                  <ProductivityUpgrade>
+                    <Value><ModValue Insert="$Productivity_VulcanOther"/></Value>
+                    <Percental>1</Percental>
+                  </ProductivityUpgrade>
+                </FactoryUpgrade>
+            </Values>
+        </Asset>
+    </ModOp>
+  </Group>
+
+</ModOps>

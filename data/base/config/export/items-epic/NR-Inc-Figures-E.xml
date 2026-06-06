@@ -30,7 +30,8 @@
                 <Niche>Religion</Niche> 
                 <TradePrice><ModValue Insert="$TradePrice_Epic"/></TradePrice>
                 <BarkPool>83338</BarkPool> <!-- <GUID>83338</GUID> -->
-                <Rarity>Epic</Rarity> 
+                <Rarity>Epic</Rarity>
+                <Origin>DLC01</Origin> 
             </Item>
             <Locked>
                 <DefaultLockedState>0</DefaultLockedState>
@@ -77,28 +78,22 @@
                         <AdditionalNeedAttributes>
                             <Money>
                                 <AmountOrPercent>
-                                    <Value>1</Value>
+                                    <Value>2</Value>
                                     <Percental>0</Percental>
                                 </AmountOrPercent>
                             </Money>
                             <Belief>
                                 <AmountOrPercent>
-                                    <Value>1</Value>
+                                    <Value>3</Value>
                                     <Percental>0</Percental>
                                 </AmountOrPercent>
                             </Belief>
                             <Happiness>
                                 <AmountOrPercent>
-                                    <Value>1</Value>
+                                    <Value>2</Value>
                                     <Percental>0</Percental>
                                 </AmountOrPercent>
                             </Happiness>
-                            <FireSafety>
-                                <AmountOrPercent>
-                                    <Value>1</Value>
-                                    <Percental>0</Percental>
-                                </AmountOrPercent>
-                            </FireSafety>
                         </AdditionalNeedAttributes>
                     </NeedProvidedNeedAttributes>
                 </ResidenceUpgrade>
