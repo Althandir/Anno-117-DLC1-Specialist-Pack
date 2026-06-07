@@ -67,14 +67,6 @@
                     <SourceCategory>Item</SourceCategory>
                     <ExcludeEffectSourceGUID>1</ExcludeEffectSourceGUID>
                 </Buff>
-                <FactoryUpgrade>
-                    <ReplaceInputs>
-                        <Item>
-                            <OldInput>145102</OldInput>
-                            <NewInput>13810</NewInput>
-                        </Item>
-                    </ReplaceInputs>
-                </FactoryUpgrade>
             </Values>
         </Asset>
     </ModOp>
@@ -127,7 +119,7 @@
                     <AdditionalAttributes>
                         <FireSafety>
                             <AmountOrPercent>
-                                <Value>-1.5</Value>
+                                <Value>-1</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </FireSafety>

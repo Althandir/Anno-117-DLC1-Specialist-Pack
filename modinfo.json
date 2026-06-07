@@ -118,7 +118,7 @@
     },
     "WorkforceFactorUpgrade_FuelConsumer-E":
     {
-      "default": "-66"
+      "default": "-40"
     }
   }
 }

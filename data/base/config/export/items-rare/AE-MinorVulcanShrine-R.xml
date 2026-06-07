@@ -125,7 +125,7 @@
                     <AdditionalAttributes>
                       <FireSafety>
                           <AmountOrPercent>
-                              <Value>2.0</Value>
+                              <Value>1.2</Value>
                               <Percental>0</Percental>
                           </AmountOrPercent>
                       </FireSafety>
