@@ -7,7 +7,7 @@
         <Values>
             <Standard>
                 <GUID>1600000845</GUID>
-                <Name>Specialist AE-ReInput-Boards-ArmorRObsi-C</Name>
+                <Name>Specialist AE-ReInput-Boards-WeaponRObsi-C</Name>
                 <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
                 <InfoDescription>1600000846</InfoDescription>
             </Standard>
@@ -54,7 +54,7 @@
             <Values>
                 <Standard>
                     <GUID>1600000846</GUID>
-                    <Name>Specialist AE-ReInput-Boards-ArmorRObsi-C BuildingBuff</Name>
+                    <Name>Specialist AE-ReInput-Boards-WeaponRObsi-C BuildingBuff</Name>
                     <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
                 </Standard>
                 <Text>
@@ -71,7 +71,7 @@
                     <ReplaceInputs>
                         <Item>
                             <OldInput>145102</OldInput>
-                            <NewInput>13810</NewInput>
+                            <NewInput>2173</NewInput>
                         </Item>
                     </ReplaceInputs>
                 </FactoryUpgrade>
@@ -85,7 +85,7 @@
             <Values>
                 <Standard>
                     <GUID>1600000847</GUID>
-                    <Name>Specialist AE-ReInput-Boards-ArmorRObsi-C FunctionalEffect</Name>
+                    <Name>Specialist AE-ReInput-Boards-WeaponRObsi-C FunctionalEffect</Name>
                     <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
                 </Standard>
                 <Effect>
@@ -117,7 +117,7 @@
             <Values>
                 <Standard>
                     <GUID>1600000848</GUID>
-                    <Name>Specialist AE-ReInput-Boards-ArmorRObsi-C FunctionalEffect BuildingBuff</Name>
+                    <Name>Specialist AE-ReInput-Boards-WeaponRObsi-C FunctionalEffect BuildingBuff</Name>
                     <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
                 </Standard>
                 <Text>
@@ -127,7 +127,7 @@
                     <AdditionalAttributes>
                         <Prestige>
                             <AmountOrPercent>
-                                <Value>-3</Value>
+                                <Value>0.5</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
                         </Prestige>

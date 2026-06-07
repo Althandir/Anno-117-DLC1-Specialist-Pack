@@ -24,16 +24,16 @@
 
   "ModName": {
     "English": " DLC1-Specialists-Pack by Althandir / Altdolphin",
-    "German": "Beispiel Pack von Althandir / Altdolphin",
-    "French": "[EN]  DLC1-Specialists-Pack by Althandir / Altdolphin",
-    "Italian": "[EN]  DLC1-Specialists-Pack by Althandir / Altdolphin",
-    "Polish": "[EN]  DLC1-Specialists-Pack by Althandir / Altdolphin",
-    "Spanish": "[EN]  DLC1-Specialists-Pack by Althandir / Altdolphin",
-    "Chinese": "[EN]  DLC1-Specialists-Pack by Althandir / Altdolphin",
-    "Japanese": "[EN]  DLC1-Specialists-Pack by Althandir / Altdolphin",
-    "Korean": "[EN]  DLC1-Specialists-Pack by Althandir / Altdolphin",
-    "Taiwanese": "[EN]  DLC1-Specialists-Pack by Althandir / Altdolphin",
-    "Russian": "[EN]  DLC1-Specialists-Pack by Althandir / Altdolphin"
+    "German": "DLC1-Spezialisten Pack von Althandir / Altdolphin",
+    "French": "[EN] DLC1-Specialists-Pack by Althandir / Altdolphin",
+    "Italian": "[EN] DLC1-Specialists-Pack by Althandir / Altdolphin",
+    "Polish": "[EN] DLC1-Specialists-Pack by Althandir / Altdolphin",
+    "Spanish": "[EN] DLC1-Specialists-Pack by Althandir / Altdolphin",
+    "Chinese": "[EN] DLC1-Specialists-Pack by Althandir / Altdolphin",
+    "Japanese": "[EN] DLC1-Specialists-Pack by Althandir / Altdolphin",
+    "Korean": "[EN] DLC1-Specialists-Pack by Althandir / Altdolphin",
+    "Taiwanese": "[EN] DLC1-Specialists-Pack by Althandir / Altdolphin",
+    "Russian": "[EN] DLC1-Specialists-Pack by Althandir / Altdolphin"
   },
   "Description": {
     "English": "Adds new Specialists focused on the DLC1 Content to Anno 117.",
@@ -102,7 +102,7 @@
     },
     "Productivity_CoalMine-L_Boosted":
     {
-      "default": "100"
+      "default": "125"
     },
     "MaintenanceFactorUpgrade_CoalMine-L_Boosted":
     {

@@ -17,7 +17,7 @@
 <!-- Common Specialists -->
 <Group>
     <Include File="items-common/AE-ReInput-Figur-ArmorRObsi-C.xml" />
-    <Include File="items-common/AE-ReInput-Boards-ArmorRObsi-C.xml" />
+    <Include File="items-common/AE-ReInput-Boards-WeaponRObsi-C.xml" />
 </Group>
 
 <!-- Rare Specialists -->
