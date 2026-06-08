@@ -125,12 +125,12 @@
                 </Text>
                 <BuildingUpgrade>
                     <AdditionalAttributes>
-                        <Prestige>
+                        <Health>
                             <AmountOrPercent>
-                                <Value>0.5</Value>
+                                <Value>-2</Value>
                                 <Percental>0</Percental>
                             </AmountOrPercent>
-                        </Prestige>
+                        </Health>
                     </AdditionalAttributes>
                 </BuildingUpgrade>
                 <Buff>

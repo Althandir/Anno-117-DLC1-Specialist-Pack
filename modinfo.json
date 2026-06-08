@@ -102,7 +102,11 @@
     },
     "Productivity_CoalMine-L_Boosted":
     {
-      "default": "125"
+      "default": "100"
+    },
+    "Productivity_BoFig-L":
+    {
+      "default": "15"
     },
     "MaintenanceFactorUpgrade_CoalMine-L_Boosted":
     {

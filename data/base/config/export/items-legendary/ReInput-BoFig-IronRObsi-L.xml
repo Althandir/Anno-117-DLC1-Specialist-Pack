@@ -1,0 +1,171 @@
+<ModOps>
+<!-- Item Definition GUID:1600000864 - 1600000865 + 1600000870 | LineID:1600000864 - 1600000865 + 1600000870 -->
+<Group>
+    <ModOp Type="addNextSibling" GUID="106410">
+        <Asset>
+            <Template>ItemWithBoost</Template>
+            <Values>
+            <Standard>
+                <GUID>1600000864</GUID>
+                <Name>Specialist Prod-CoalMine-L</Name>
+                <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                <InfoDescription>1600000865</InfoDescription>
+            </Standard>
+            <Effect>
+                <EffectScope>Radius</EffectScope> 
+                <SourceCategory>Item</SourceCategory>
+                <Buffs>
+                    <Item>
+                        <GUID>1600000865</GUID>
+                    </Item>
+                </Buffs>
+                <Targets> 
+                    <Item>
+                        <GUID>145230</GUID>
+                    </Item>
+                    <Item>
+                        <GUID>145229</GUID>
+                    </Item>
+                </Targets>
+                <HideInGovernorsBar>1</HideInGovernorsBar>
+            </Effect>
+            <Item>
+                <Niche>Economy</Niche> 
+                <TradePrice><ModValue Insert="$TradePrice_Legendary"/></TradePrice>
+                <BarkPool>80242</BarkPool> <!-- <GUID>80242</GUID> -->
+                <Rarity>Legendary</Rarity>
+                <Origin>DLC01</Origin> 
+            </Item>
+            <Locked>
+                <DefaultLockedState>0</DefaultLockedState>
+            </Locked>
+            <Text>
+                <OasisId>1600000864</OasisId>
+            </Text>
+
+            <ItemWithBoost>
+                <BoostCondition>
+                <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                <Values>
+                <PreConditionList>
+                    <Condition>
+                        <Template>ConditionObjectCount</Template>
+                        <Values>
+                            <Condition/>
+                            <ConditionObjectCount>
+                                <Amount>8</Amount>
+                            </ConditionObjectCount>
+                            <ObjectFilter>
+                                <ObjectGUID>71987</ObjectGUID>
+                                <ObjectLocations>
+                                    <Template>LocationFilter</Template>
+                                    <Values>
+                                    <LocationFilter>
+                                        <ObjectLocations>
+                                        <ObjectFilter>
+                                            <Template>ObjectFilter</Template>
+                                            <Values>
+                                            <ObjectFilter>
+                                                <UseContextObjects>1</UseContextObjects>
+                                            </ObjectFilter>
+                                            </Values>
+                                        </ObjectFilter>
+                                        </ObjectLocations>
+                                    </LocationFilter>
+                                    </Values>
+                                </ObjectLocations>
+                            </ObjectFilter>
+                        </Values>
+                    </Condition>
+                </PreConditionList>
+                </Values>
+                </BoostCondition>
+                <BoostBuffs>
+                    <Item>
+                        <GUID>1600000870</GUID>
+                    </Item>
+                </BoostBuffs>
+                <BoostHint>1600000870</BoostHint>
+            </ItemWithBoost>
+
+            </Values>
+        </Asset>
+    </ModOp>
+</Group>
+
+  <!-- Buff Definitions-->
+  <Group>
+    <!-- BuildingEffect Definition -->
+    <ModOp Type="addNextSibling" GUID="80193">
+        <Asset>
+            <Template>BuildingBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1600000865</GUID>
+                    <Name>Specialist Prod-CoalMine-L BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                </Standard>
+                <Text>
+                    <OasisId>1600000864</OasisId>
+                </Text>
+                <Buff>
+                    <SourceCategory>Item</SourceCategory>
+                </Buff>
+                <FactoryUpgrade>
+                    <ProductivityUpgrade>
+                        <Value><ModValue Insert="$Productivity_BoFig-L"/></Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
+                    <ReplaceInputs>
+                        <Item>
+                            <OldInput>145102</OldInput>
+                            <NewInput>2115</NewInput>
+                        </Item>
+                    </ReplaceInputs>
+                </FactoryUpgrade>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Boosted Definition -->
+    <ModOp Type="addNextSibling" GUID="80193">
+        <Asset>
+            <Template>BuildingBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1600000870</GUID>
+                    <Name>Specialist Prod-CoalMine-L Boosted BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                </Standard>
+                <Text>
+                    <OasisId>1600000864</OasisId>
+                </Text>
+                <Buff>
+                    <SourceCategory>Item</SourceCategory>
+                </Buff>
+                <FactoryUpgrade>
+                    <ProductivityUpgrade>
+                        <Value><ModValue Insert="$Productivity_BoFig-L"/></Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
+                    <AdditionalOutput>
+                    <Item>
+                      <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+                      <AdditionalOutputCycle>4</AdditionalOutputCycle>
+                      <Amount>1</Amount>
+                    </Item>
+                  </AdditionalOutput>
+                    <ReplaceInputs>
+                        <Item>
+                            <OldInput>145102</OldInput>
+                            <NewInput>2115</NewInput>
+                        </Item>
+                    </ReplaceInputs>
+                </FactoryUpgrade>
+            </Values>
+        </Asset>
+    </ModOp>
+
+  </Group>
+
+</ModOps>
