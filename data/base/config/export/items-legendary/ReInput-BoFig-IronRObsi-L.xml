@@ -1,22 +1,22 @@
 <ModOps>
-<!-- Item Definition GUID:1600000864 - 1600000865 + 1600000870 | LineID:1600000864 - 1600000865 + 1600000870 -->
+<!-- Item Definition GUID:1600000871 - 1600000872 + 1600000873 | LineID:1600000871 - 1600000872 + 1600000873 -->
 <Group>
     <ModOp Type="addNextSibling" GUID="106410">
         <Asset>
             <Template>ItemWithBoost</Template>
             <Values>
             <Standard>
-                <GUID>1600000864</GUID>
-                <Name>Specialist Prod-CoalMine-L</Name>
+                <GUID>1600000871</GUID>
+                <Name>Specialist ReInput-BoFig-IronRObsi-L</Name>
                 <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
-                <InfoDescription>1600000865</InfoDescription>
+                <InfoDescription>1600000872</InfoDescription>
             </Standard>
             <Effect>
                 <EffectScope>Radius</EffectScope> 
                 <SourceCategory>Item</SourceCategory>
                 <Buffs>
                     <Item>
-                        <GUID>1600000865</GUID>
+                        <GUID>1600000872</GUID>
                     </Item>
                 </Buffs>
                 <Targets> 
@@ -40,7 +40,7 @@
                 <DefaultLockedState>0</DefaultLockedState>
             </Locked>
             <Text>
-                <OasisId>1600000864</OasisId>
+                <OasisId>1600000871</OasisId>
             </Text>
 
             <ItemWithBoost>
@@ -82,10 +82,10 @@
                 </BoostCondition>
                 <BoostBuffs>
                     <Item>
-                        <GUID>1600000870</GUID>
+                        <GUID>1600000873</GUID>
                     </Item>
                 </BoostBuffs>
-                <BoostHint>1600000870</BoostHint>
+                <BoostHint>1600000873</BoostHint>
             </ItemWithBoost>
 
             </Values>
@@ -101,12 +101,12 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000865</GUID>
-                    <Name>Specialist Prod-CoalMine-L BuildingBuff</Name>
+                    <GUID>1600000872</GUID>
+                    <Name>Specialist ReInput-BoFig-IronRObsi-L BuildingBuff</Name>
                     <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000864</OasisId>
+                    <OasisId>1600000871</OasisId>
                 </Text>
                 <Buff>
                     <SourceCategory>Item</SourceCategory>
@@ -133,12 +133,12 @@
             <Template>BuildingBuff</Template>
             <Values>
                 <Standard>
-                    <GUID>1600000870</GUID>
-                    <Name>Specialist Prod-CoalMine-L Boosted BuildingBuff</Name>
+                    <GUID>1600000873</GUID>
+                    <Name>Specialist ReInput-BoFig-IronRObsi-L Boosted BuildingBuff</Name>
                     <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
                 </Standard>
                 <Text>
-                    <OasisId>1600000864</OasisId>
+                    <OasisId>1600000871</OasisId>
                 </Text>
                 <Buff>
                     <SourceCategory>Item</SourceCategory>

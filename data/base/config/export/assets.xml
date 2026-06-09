@@ -38,6 +38,7 @@
 <Group>
     <Include File="items-legendary/AE-MajorVulcanShrine-L.xml" />
     <Include File="items-legendary/Prod-CoalMine-L.xml" />
+    <Include File="items-legendary/ReInput-BoFig-IronRObsi-L.xml" />
 </Group>
 
 <!-- Add to Pools -->
@@ -51,7 +52,10 @@
 <Include File="pools/Traders/Caecilia/legendary.xml" />
 
 <Group Condition="$CanSpawnAtAllTraders">
-  
+    <Include File="pools/Traders/BaseGame/pools-common.xml" />
+    <Include File="pools/Traders/BaseGame/pools-rare.xml" />
+    <Include File="pools/Traders/BaseGame/pools-epic.xml" />
+    <Include File="pools/Traders/BaseGame/pools-legendary.xml" />
 </Group>
 
 

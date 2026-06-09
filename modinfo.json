@@ -70,23 +70,23 @@
   {
     "CanSpawnAtAllTraders":
     {
-      "default": "false"
+      "default": "true"
     },
     "TradePrice_Common":
     {
-      "default": "5040"
+      "default": "5000"
     },
     "TradePrice_Rare":
     {
-      "default": "12600"
+      "default": "12500"
     },
     "TradePrice_Epic":
     {
-      "default": "21840"
+      "default": "50000"
     },
     "TradePrice_Legendary":
     {
-      "default": "33600"
+      "default": "250000"
     },
     "ConsumptionModifier":
     {
