@@ -70,10 +70,13 @@
   {
     "CanSpawnAtAllTraders":
     {
-      "default": "true"
+      "label":"Controlls if the Specialists can appear on basegame traders. Info: At these traders you pay with denarii. Not Obsidian. The price balance is not really given with basegame traders. You can increase the prices but then you might not be able to afford them at Caecilia. See TradePrice_Common for futher explaination on why.",
+      "type": "toggle",
+      "default": "false"
     },
     "TradePrice_Common":
     {
+      "label":"Controlls the Tradeprice for Common Items. INFO: For Obsidian Costs multiply the value with: ~0.00595 and round it. Example 5000*0.00595=~30",
       "default": "5000"
     },
     "TradePrice_Rare":
@@ -82,11 +85,11 @@
     },
     "TradePrice_Epic":
     {
-      "default": "50000"
+      "default": "21840"
     },
     "TradePrice_Legendary":
     {
-      "default": "250000"
+      "default": "33600"
     },
     "ConsumptionModifier":
     {

@@ -21,7 +21,7 @@
                 </Buffs>
                 <Targets> 
                     <Item>
-                        <GUID>144801</GUID>
+                        <GUID>144815</GUID>
                     </Item>
                 </Targets>
                 <HideInGovernorsBar>1</HideInGovernorsBar>
@@ -79,10 +79,10 @@
                 </BoostCondition>
                 <BoostBuffs>
                 <Item>
-                    <GUID>1600000561</GUID>
+                    <GUID>1600000870</GUID>
                 </Item>
                 </BoostBuffs>
-                <BoostHint>1600000561</BoostHint>
+                <BoostHint>1600000870</BoostHint>
             </ItemWithBoost>
 
             </Values>
