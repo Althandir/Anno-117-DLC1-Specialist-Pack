@@ -1,0 +1,135 @@
+<ModOps>
+<!-- Item Definition GUID:1600000882 - 1600000885 | LineID:1600000882 - 1600000883 -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="106410">
+        <Asset>
+            <Template>Item</Template>
+            <Values>
+            <Standard>
+                <GUID>1600000882</GUID>
+                <Name>Specialist AE-TempleVulcan-E</Name>
+                <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                <InfoDescription>1600000883</InfoDescription>
+            </Standard>
+            <Effect>
+                <EffectScope>Radius</EffectScope>  
+                <SourceCategory>Item</SourceCategory>
+                <Buffs>
+                <Item>
+                    <GUID>1600000883</GUID>
+                </Item>
+                </Buffs>
+                <Targets> <!-- Targets of Buff -->
+                <Item>
+                    <GUID>140886</GUID>
+                </Item>
+                </Targets>
+                <HideInGovernorsBar>1</HideInGovernorsBar>
+            </Effect>
+            <Item>
+                <Niche>Religion</Niche>
+                <TradePrice><ModValue Insert="$TradePrice_Epic"/></TradePrice> 
+                <BarkPool>83343</BarkPool> <!-- <GUID>83343</GUID> -->
+                <Rarity>Epic</Rarity>
+                <Origin>DLC01</Origin> 
+            </Item>
+            <Locked>
+                <DefaultLockedState>0</DefaultLockedState>
+            </Locked>
+            <Text>
+                <OasisId>1600000882</OasisId>
+            </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+  </Group>
+
+  <!-- Buff Definitions-->
+  <Group>
+    <!-- BuildingEffect Definition -->
+    <ModOp Type="addNextSibling" GUID="80193">
+        <Asset>
+            <Template>BuildingBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1600000883</GUID>
+                    <Name>Specialist AE-TempleVulcan-E BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                </Standard>
+                <Text>
+                    <OasisId>1600000882</OasisId>
+                </Text>
+                <BuildingUpgrade>
+                    <AdditionalFunctionalEffect>1600000884</AdditionalFunctionalEffect>
+                </BuildingUpgrade>
+                <Buff>
+                    <SourceCategory>Item</SourceCategory>
+                </Buff>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+    <ModOp Type="addNextSibling" GUID="135498">
+        <Asset>
+            <Template>Effect</Template>
+            <Values>
+                <Standard>
+                    <GUID>1600000884</GUID>
+                    <Name>Specialist AE-TempleVulcan-E FunctionalEffect</Name>
+                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                </Standard>
+                <Effect>
+                    <EffectScope>StreetDistance</EffectScope>
+                    <SourceCategory>Adjacency</SourceCategory>
+                    <Buffs>
+                        <Item>
+                            <GUID>1600000885</GUID>
+                        </Item>
+                    </Buffs>
+                    <Targets>
+                        <Item>
+                            <GUID>43097</GUID>
+                        </Item>
+                    </Targets>
+                    <ExcludeEffectSourceGUID>0</ExcludeEffectSourceGUID>
+                    <HideInGovernorsBar>1</HideInGovernorsBar>
+                </Effect>
+                <Text>
+                    <OasisId>1600000882</OasisId>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="80193">
+        <Asset>
+            <Template>BuildingBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1600000885</GUID>
+                    <Name>Specialist AE-TempleVulcan-E FunctionalEffect BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                </Standard>
+                <Text>
+                    <OasisId>1600000882</OasisId>
+                </Text>
+                <HealthUpgrade/>
+                <BuildingUpgrade>
+                    <AdditionalAttributes>
+                        <FireSafety>
+                            <AmountOrPercent>
+                                <Value>1.6</Value>
+                                <Percental>0</Percental>
+                            </AmountOrPercent>
+                        </FireSafety>
+                    </AdditionalAttributes>
+                </BuildingUpgrade>
+                <Buff>
+                    <SourceCategory>Adjacency</SourceCategory>
+                </Buff>
+            </Values>
+        </Asset>
+    </ModOp>
+  </Group>
+
+</ModOps>

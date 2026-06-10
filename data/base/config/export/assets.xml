@@ -18,12 +18,15 @@
 <Group>
     <Include File="items-common/AE-ReInput-Figur-ArmorRObsi-C.xml" />
     <Include File="items-common/AE-ReInput-Boards-WeaponRObsi-C.xml" />
+    <Include File="items-common/AddObsi-Landside-C.xml" />
 </Group>
 
 <!-- Rare Specialists -->
 <Group>
     <Include File="items-rare/AE-FuelC-Belief-R.xml" />
     <Include File="items-rare/AE-MinorVulcanShrine-R.xml" />
+    <Include File="items-rare/AE-Boards-R.xml" />
+    <Include File="items-rare/AE-Figures-R.xml" />
 </Group>
 
 <!-- Epic Specialists -->
@@ -32,6 +35,7 @@
     <Include File="items-epic/NR-Inc-Boards-E.xml" />
     <Include File="items-epic/Prod-Vulcan-E.xml" />
     <Include File="items-epic/Upkeep-FuelConsumer-E.xml" />
+    <Include File="items-epic/AE-TempleVulcan-E.xml" />
 </Group>
 
 <!-- Legendary Specialists -->

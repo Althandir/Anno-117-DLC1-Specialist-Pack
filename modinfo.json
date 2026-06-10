@@ -9,7 +9,7 @@
   ],
   "Difficulty": "easier",
   "Dependencies": {
-    "Require": ["DLC 1"],
+    "Require": ["Prophecies_of_Ash"],
     "Optional": [],
     "LoadAfter": [],
     "Deprecate": [],
@@ -23,7 +23,7 @@
   },
 
   "ModName": {
-    "English": " DLC1-Specialists-Pack by Althandir / Altdolphin",
+    "English": "DLC1-Specialists-Pack by Althandir / Altdolphin",
     "German": "DLC1-Spezialisten Pack von Althandir / Altdolphin",
     "French": "[EN] DLC1-Specialists-Pack by Althandir / Altdolphin",
     "Italian": "[EN] DLC1-Specialists-Pack by Althandir / Altdolphin",
@@ -111,6 +111,10 @@
     {
       "default": "15"
     },
+    "Productivity_AE-R":
+    {
+      "default": "-15"
+    },
     "MaintenanceFactorUpgrade_CoalMine-L_Boosted":
     {
       "default": "-100"
@@ -126,6 +130,29 @@
     "WorkforceFactorUpgrade_FuelConsumer-E":
     {
       "default": "-40"
+    },
+    "ShrineDeity_Rare_BuffValue":
+    {
+      "label": "Value for all Buff granted by Rare Shrine Specialists. Info: Value is Doubled for Deities only giving one Attribute (e.g Mercury's Shrine Buff)",
+      "default": "0.8"
+    },
+    "ShrineDeity_Legendary_BuffValue_NonBoosted":
+    {
+      "label": "Value for all Buff granted by Legendary Shrine Specialists. Info: Value is Doubled for Deities only giving one Attribute (e.g Mercury's Shrine Buff)",
+      "default": "1.5"
+    },
+    "ShrineDeity_Legendary_BuffValue_Boosted":
+    {
+      "default": "1.8"
+    },
+    "ShrineDeity_Legendary_MaintenanceBuff_NonBoosted":
+    {
+      "default": "-50"
+    },
+    "ShrineDeity_Legendary_MaintenanceBuff_Boosted":
+    {
+      "default": "-100"
     }
+
   }
 }
