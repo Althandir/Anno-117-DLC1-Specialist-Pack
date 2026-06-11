@@ -74,10 +74,16 @@
       "type": "toggle",
       "default": "false"
     },
+    "FarmSpecialist_RespectObsidianDeposit":
+    {
+      "label":"Controlls if the Specialist for gaining Obsidian via Farms, etc... requires an valid and some amount of obsidian deposit on the island",
+      "type": "toggle",
+      "default": "true"
+    },
     "TradePrice_Common":
     {
       "label":"Controlls the Tradeprice for Common Items. INFO: For Obsidian Costs multiply the value with: ~0.00595 and round it. Example 5000*0.00595=~30",
-      "default": "5000"
+      "default": "1250"
     },
     "TradePrice_Rare":
     {
@@ -143,7 +149,7 @@
     },
     "ShrineDeity_Legendary_BuffValue_Boosted":
     {
-      "default": "1.8"
+      "default": "2.0"
     },
     "ShrineDeity_Legendary_MaintenanceBuff_NonBoosted":
     {

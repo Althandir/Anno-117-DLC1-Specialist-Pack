@@ -1,57 +1,57 @@
 <ModOps>
 <!-- Item Definition GUID:1600000886 - 1600000887 | LineID:1600000886 - 1600000887 -->
-  <Group>
-    <ModOp Type="addNextSibling" GUID="106410">
-      <Asset>
-        <Template>Item</Template>
-        <Values>
-          <Standard>
-            <GUID>1600000886</GUID>
-            <Name>Specialist AddObsi-Landside-C</Name>
-            <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
-            <InfoDescription>1600000887</InfoDescription>
-          </Standard>
-          <Effect>
-            <EffectScope>Radius</EffectScope> 
-            <SourceCategory>Item</SourceCategory>
-            <Buffs>
-              <Item>
-                <GUID>1600000887</GUID>
-              </Item>
-            </Buffs>
-            <Targets> <!-- Targets of Buff -->
-              <Item>
-                <GUID>42602</GUID>
-              </Item>
-              <Item>
-                <GUID>51905</GUID>
-              </Item>
-              <Item>
-                <GUID>50224</GUID>
-              </Item>
-            </Targets>
-            <HideInGovernorsBar>1</HideInGovernorsBar>
-          </Effect>
-          <Item>
-            <Niche>Economy</Niche> 
-            <TradePrice><ModValue Insert="$TradePrice_Common"/></TradePrice>
-            <BarkPool>80248</BarkPool> <!-- <GUID>80248</GUID> -->
-            <Rarity>Common</Rarity>
-            <Origin>DLC01</Origin> 
-          </Item>
-          <Locked>
-            <DefaultLockedState>0</DefaultLockedState>
-          </Locked>
-          <Text>
-            <OasisId>1600000886</OasisId>
-          </Text>
-        </Values>
-      </Asset>
-    </ModOp>
-  </Group>
+    <Group>
+        <ModOp Type="addNextSibling" GUID="106410">
+        <Asset>
+            <Template>Item</Template>
+            <Values>
+            <Standard>
+                <GUID>1600000886</GUID>
+                <Name>Specialist AddObsi-Landside-C</Name>
+                <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                <InfoDescription>1600000887</InfoDescription>
+            </Standard>
+            <Effect>
+                <EffectScope>Radius</EffectScope> 
+                <SourceCategory>Item</SourceCategory>
+                <Buffs>
+                <Item>
+                    <GUID>1600000887</GUID>
+                </Item>
+                </Buffs>
+                <Targets> <!-- Targets of Buff -->
+                <Item>
+                    <GUID>42602</GUID>
+                </Item>
+                <Item>
+                    <GUID>51905</GUID>
+                </Item>
+                <Item>
+                    <GUID>50224</GUID>
+                </Item>
+                </Targets>
+                <HideInGovernorsBar>1</HideInGovernorsBar>
+            </Effect>
+            <Item>
+                <Niche>Economy</Niche> 
+                <TradePrice><ModValue Insert="$TradePrice_Common"/></TradePrice>
+                <BarkPool>80248</BarkPool> <!-- <GUID>80248</GUID> -->
+                <Rarity>Common</Rarity>
+                <Origin>DLC01</Origin> 
+            </Item>
+            <Locked>
+                <DefaultLockedState>0</DefaultLockedState>
+            </Locked>
+            <Text>
+                <OasisId>1600000886</OasisId>
+            </Text>
+            </Values>
+        </Asset>
+        </ModOp>
+    </Group>
 
-  <!-- Buff Definitions-->
-  <Group>
+    <!-- Buff Definitions-->
+    <Group>
     <!-- BuildingEffect Definition -->
     <ModOp Type="addNextSibling" GUID="80193">
         <Asset>
@@ -71,10 +71,9 @@
                 <FactoryUpgrade>
                   <AdditionalOutput>
                     <Item>
-                      <Product>145102</Product>
-                      <AdditionalOutputCycle>35</AdditionalOutputCycle>
-                      <Amount>1</Amount>
-                      <RequiresLimitedLodeFertility>145337</RequiresLimitedLodeFertility>
+                        <Product>145102</Product>
+                        <AdditionalOutputCycle>50</AdditionalOutputCycle>
+                        <Amount>1</Amount>
                     </Item>
                   </AdditionalOutput>
                 </FactoryUpgrade>
@@ -82,6 +81,12 @@
         </Asset>
     </ModOp>
     
-  </Group>
+    </Group>
+
+    <Group Condition="$FarmSpecialist_RespectObsidianDeposit">
+        <ModOp Type="add" GUID="1600000887" Path="Values/FactoryUpgrade/AdditionalOutput/Item/">
+            <RequiresLimitedLodeFertility>145337</RequiresLimitedLodeFertility>
+        </ModOp>
+    </Group>
 
 </ModOps>
