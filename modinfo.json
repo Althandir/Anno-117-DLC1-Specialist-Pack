@@ -9,7 +9,7 @@
   ],
   "Difficulty": "easier",
   "Dependencies": {
-    "Require": ["Prophecies_of_Ash"],
+    "Require": ["Prophecies of Ash"],
     "Optional": [],
     "LoadAfter": [],
     "Deprecate": [],

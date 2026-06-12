@@ -3,14 +3,7 @@
 
 ###  
 #   GUID-Ranges:  
-#   1600000837 - 1600000xxx 
-#
-#
-#
-#
-#
-#
-#
+#   1600000837 - 1600000887 
 ###
 -->
 <ModOps>
@@ -48,6 +41,17 @@
 <!-- Add to Pools -->
 <Include File="pools/AssetList/AssetListPool.xml" />
 <Include File="pools/RewardPool/AllItems&Specialists.xml" />
+
+<Include File="pools/RewardPool/Economy-C.xml" />
+<Include File="pools/RewardPool/Economy-E.xml" />
+<Include File="pools/RewardPool/Economy-L.xml" />
+
+<Include File="pools/RewardPool/Religion-E.xml" />
+<Include File="pools/RewardPool/Religion-L.xml" />
+<Include File="pools/RewardPool/Religion-R.xml" />
+
+<Include File="pools/RewardPool/Research-E.xml" />
+<Include File="pools/RewardPool/Research-R.xml" />
 
 <!-- Add to Traderpools --> 
 <Include File="pools/Traders/Caecilia/common.xml" />
