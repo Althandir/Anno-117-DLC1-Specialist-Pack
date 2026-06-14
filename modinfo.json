@@ -9,12 +9,18 @@
   ],
   "Difficulty": "easier",
   "Dependencies": {
-    "Require": ["Prophecies of Ash"],
+    "Require": ["PropheciesOfAsh"],
     "Optional": [],
     "LoadAfter": [],
     "Deprecate": [],
     "Incompatible": []
   },
+  "DLCDependencies":[
+    {
+      "DLC":"PropheciesOfAsh",
+      "Dependant":"required"
+    }
+  ],
   "GameSetup": {
     "RequiresNewGame": false,
     "SafeToRemove": true,
