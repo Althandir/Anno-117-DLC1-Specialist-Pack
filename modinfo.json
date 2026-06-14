@@ -9,7 +9,7 @@
   ],
   "Difficulty": "easier",
   "Dependencies": {
-    "Require": ["PropheciesOfAsh"],
+    "Require": ["PropheciesOfAsh", "DLC 1"],
     "Optional": [],
     "LoadAfter": [],
     "Deprecate": [],
@@ -23,7 +23,7 @@
   ],
   "GameSetup": {
     "RequiresNewGame": false,
-    "SafeToRemove": true,
+    "SafeToRemove": false,
     "Multiplayer": true,
     "Campaign": true
   },
@@ -70,7 +70,6 @@
 
   "CreatorName": "Althandir / Altdolphin",
   "CreatorContact": "althandir via Anno-Modding-Discord",
-  "Image": "ModListingImg.png",
 
   "Options": 
   {
