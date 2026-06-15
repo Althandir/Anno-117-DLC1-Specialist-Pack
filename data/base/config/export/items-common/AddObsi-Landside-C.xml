@@ -8,7 +8,7 @@
             <Standard>
                 <GUID>1600000886</GUID>
                 <Name>Specialist AddObsi-Landside-C</Name>
-                <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                <IconFilename>data/base/graphics/icons/f_AddObsi-Landside-C.png</IconFilename>
                 <InfoDescription>1600000887</InfoDescription>
             </Standard>
             <Effect>
@@ -60,7 +60,7 @@
                 <Standard>
                     <GUID>1600000887</GUID>
                     <Name>Specialist AddObsi-Landside-C BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/f_AddObsi-Landside-C.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000886</OasisId>

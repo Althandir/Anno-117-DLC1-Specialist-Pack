@@ -8,7 +8,7 @@
             <Standard>
                 <GUID>1600000845</GUID>
                 <Name>Specialist AE-ReInput-Boards-WeaponRObsi-C</Name>
-                <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                <IconFilename>data/base/graphics/icons/m_AE-ReInput-Boards-WeaponRObsi-C.png</IconFilename>
                 <InfoDescription>1600000846</InfoDescription>
             </Standard>
             <Effect>
@@ -55,7 +55,7 @@
                 <Standard>
                     <GUID>1600000846</GUID>
                     <Name>Specialist AE-ReInput-Boards-WeaponRObsi-C BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/m_AE-ReInput-Boards-WeaponRObsi-C.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000845</OasisId>
@@ -86,7 +86,7 @@
                 <Standard>
                     <GUID>1600000847</GUID>
                     <Name>Specialist AE-ReInput-Boards-WeaponRObsi-C FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/m_AE-ReInput-Boards-WeaponRObsi-C.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>Radius</EffectScope>
@@ -118,7 +118,7 @@
                 <Standard>
                     <GUID>1600000848</GUID>
                     <Name>Specialist AE-ReInput-Boards-WeaponRObsi-C FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/m_AE-ReInput-Boards-WeaponRObsi-C.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000845</OasisId>
