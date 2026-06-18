@@ -8,7 +8,7 @@
             <Standard>
                 <GUID>1600000849</GUID>
                 <Name>Specialist AE-MinorVulcanShrine-R</Name>
-                <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                <IconFilename>data/base/graphics/icons/m_AE-MinorVulcanShrine-R.png</IconFilename>
                 <InfoDescription>1600000850</InfoDescription>
             </Standard>
             <Effect>
@@ -54,7 +54,7 @@
                 <Standard>
                     <GUID>1600000850</GUID>
                     <Name>Specialist AE-MinorVulcanShrine-R BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/m_AE-MinorVulcanShrine-R.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000849</OasisId>
@@ -76,7 +76,7 @@
                 <Standard>
                     <GUID>1600000851</GUID>
                     <Name>Specialist AE-MinorVulcanShrine-R FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/m_AE-MinorVulcanShrine-R.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>StreetDistance</EffectScope>
@@ -108,7 +108,7 @@
                 <Standard>
                     <GUID>1600000852</GUID>
                     <Name>Specialist AE-MinorVulcanShrine-R FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/m_AE-MinorVulcanShrine-R.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000849</OasisId>
