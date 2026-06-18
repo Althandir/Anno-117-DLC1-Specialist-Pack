@@ -8,7 +8,7 @@
             <Standard>
                 <GUID>1600000843</GUID>
                 <Name>Specialist NR-Inc-Boards-E</Name>
-                <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                <IconFilename>data/base/graphics/icons/f_NR-Inc-Boards-E.png</IconFilename>
                 <InfoDescription>1600000844</InfoDescription>
             </Standard>
             <Effect>
@@ -54,7 +54,7 @@
                 <Standard>
                     <GUID>1600000844</GUID>
                     <Name>Specialist NR-Inc-Boards-E BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/f_NR-Inc-Boards-E.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000843</OasisId>

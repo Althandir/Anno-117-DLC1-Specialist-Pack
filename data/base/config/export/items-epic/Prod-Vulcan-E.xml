@@ -8,7 +8,7 @@
           <Standard>
             <GUID>1600000860</GUID>
             <Name>Specialist Prod-Vulcan-E</Name>
-            <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+            <IconFilename>data/base/graphics/icons/f_Prod-Vulcan-E.png</IconFilename>
             <InfoDescription>1600000861</InfoDescription>
           </Standard>
           <Effect>
@@ -54,7 +54,7 @@
                 <Standard>
                     <GUID>1600000861</GUID>
                     <Name>Specialist Prod-Vulcan-E BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/f_Prod-Vulcan-E.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000860</OasisId>

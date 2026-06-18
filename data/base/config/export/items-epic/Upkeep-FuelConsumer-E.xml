@@ -8,7 +8,7 @@
           <Standard>
             <GUID>1600000862</GUID>
             <Name>Specialist Upkeep-FuelConsumer-E</Name>
-            <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+            <IconFilename>data/base/graphics/icons/m_Upkeep-FuelConsumer-E.png</IconFilename>
             <InfoDescription>1600000863</InfoDescription>
           </Standard>
           <Effect>
@@ -54,7 +54,7 @@
                 <Standard>
                     <GUID>1600000863</GUID>
                     <Name>Specialist Upkeep-FuelConsumer-E BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/_Placeholder.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/m_Upkeep-FuelConsumer-E.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000862</OasisId>
