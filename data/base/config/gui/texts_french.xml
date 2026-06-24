@@ -1,0 +1,198 @@
+<ModOps>
+    <ModOp Add="/TextExport/Texts">
+    <!-- Common Specialists -->
+
+    <!-- Specialist AddObsi-Landside-C -->
+    <!-- Title -->
+    <Text>
+        <Text>Ashes-Covered Farmer</Text>
+        <LineId>1600000886</LineId> <!-- <GUID>1600000886</GUID> -->
+    </Text>
+    <!-- Description -->
+    <Text>
+        <Text>Test Text. Meb Meb! &#xD;(DLC1-Pack)</Text>
+        <LineId>1600000887</LineId> 
+    </Text>
+
+    <!-- Specialist AE-ReInput-Boards-WeaponRObsi-C -->
+    <!-- Title -->
+    <Text>
+        <Text>Specialist AE-ReInput-Boards-WeaponRObsi-C</Text>
+        <LineId>1600000845</LineId> <!-- <GUID>1600000845</GUID> -->
+    </Text>
+    <!-- Description -->
+    <Text>
+        <Text>Test Text. Meb Meb! &#xD;(DLC1-Pack)</Text>
+        <LineId>1600000846</LineId> 
+    </Text>
+
+    <!-- Specialist AE-ReInput-Figur-ArmorRObsi-C -->
+    <!-- Title -->
+    <Text>
+        <Text>Specialist AE-ReInput-Figur-ArmorRObsi-C</Text>
+        <LineId>1600000839</LineId> <!-- <GUID>1600000839</GUID> -->
+    </Text>
+    <!-- Description -->
+    <Text>
+        <Text>Test Text. Meb Meb! &#xD;(DLC1-Pack)</Text>
+        <LineId>1600000840</LineId> 
+    </Text>
+
+    <!-- Epic Specialists -->
+
+    <!-- Specialist AE-TempleVulcan-E -->
+    <!-- Title -->
+    <Text>
+        <Text>Specialist AE-TempleVulcan-E</Text>
+        <LineId>1600000839</LineId> <!-- <GUID>1600000839</GUID> -->
+    </Text>
+    <!-- Description -->
+    <Text>
+        <Text>Test Text. Meb Meb! &#xD;(DLC1-Pack)</Text>
+        <LineId>1600000840</LineId> 
+    </Text>
+
+    <!-- Specialist NR-Inc-Boards-E -->
+    <Text>
+        <Text>Specialist NR-Inc-Boards-E</Text>
+        <LineId>1600000843</LineId> <!-- <GUID>1600000843</GUID> -->
+    </Text>
+    <!-- Description -->
+    <Text>
+        <Text>Test Text. Meb Meb! &#xD;(DLC1-Pack)</Text>
+        <LineId>1600000844</LineId> 
+    </Text>
+
+    <!-- Specialist NR-Inc-Figures-E -->
+    <Text>
+        <Text>Specialist NR-Inc-Figures-E</Text>
+        <LineId>1600000837</LineId> <!-- <GUID>1600000837</GUID> -->
+    </Text>
+    <!-- Description -->
+    <Text>
+        <Text>Test Text. Meb Meb! &#xD;(DLC1-Pack)</Text>
+        <LineId>1600000838</LineId> 
+    </Text>
+
+    <!-- Specialist Prod-Vulcan-E -->
+    <Text>
+        <Text>Specialist Prod-Vulcan-E</Text>
+        <LineId>1600000860</LineId> <!-- <GUID>1600000860</GUID> -->
+    </Text>
+    <!-- Description -->
+    <Text>
+        <Text>Test Text. Meb Meb! &#xD;(DLC1-Pack)</Text>
+        <LineId>1600000861</LineId> 
+    </Text>
+
+    <!-- Specialist Upkeep-FuelConsumer-E -->
+    <Text>
+        <Text>Specialist Upkeep-FuelConsumer-E</Text>
+        <LineId>1600000862</LineId> <!-- <GUID>1600000862</GUID> -->
+    </Text>
+    <!-- Description -->
+    <Text>
+        <Text>Test Text. Meb Meb! &#xD;(DLC1-Pack)</Text>
+        <LineId>1600000863</LineId> 
+    </Text>
+
+    <!-- Legendary Specialists -->
+
+    <!-- Specialist AE-MajorVulcanShrine-L -->
+    <Text>
+        <Text>Specialist AE-MajorVulcanShrine-L</Text>
+        <LineId>1600000853</LineId> <!-- <GUID>1600000862</GUID> -->
+    </Text>
+    <!-- Description -->
+    <Text>
+        <Text>Test Text. Meb Meb! &#xD;(DLC1-Pack)</Text>
+        <LineId>1600000854</LineId> 
+    </Text>
+    <!-- Boost Description -->
+    <Text>
+        <Text>Test Text. Meb Meb!</Text>
+        <LineId>1600000855</LineId> 
+    </Text>
+
+    <!-- Specialist Prod-CoalMine-L -->
+    <Text>
+        <Text>Specialist Prod-CoalMine-L</Text>
+        <LineId>1600000864</LineId> <!-- <GUID>1600000864</GUID> -->
+    </Text>
+    <!-- Description -->
+    <Text>
+        <Text>Test Text. Meb Meb! &#xD;(DLC1-Pack)</Text>
+        <LineId>1600000865</LineId> 
+    </Text>
+    <!-- Boost Description -->
+    <Text>
+        <Text>Test Text. Meb Meb!</Text>
+        <LineId>1600000870</LineId> 
+    </Text>
+
+    <!-- Specialist ReInput-BoFig-IronRObsi-L -->
+    <Text>
+        <Text>Specialist ReInput-BoFig-IronRObsi-L</Text>
+        <LineId>1600000871</LineId> <!-- <GUID>1600000862</GUID> -->
+    </Text>
+    <!-- Description -->
+    <Text>
+        <Text>Test Text. Meb Meb! &#xD;(DLC1-Pack)</Text>
+        <LineId>1600000872</LineId> 
+    </Text>
+    <!-- Boost Description -->
+    <Text>
+        <Text>Test Text. Meb Meb!</Text>
+        <LineId>1600000873</LineId> 
+    </Text>
+
+    <!-- Rare Specialists -->
+
+    <!-- Specialist AE-Boards-R -->
+    <Text>
+        <Text>Specialist AE-Boards-R</Text>
+        <LineId>1600000878</LineId> <!-- <GUID>1600000878</GUID> -->
+    </Text>
+    <!-- Description -->
+    <Text>
+        <Text>Test Text. Meb Meb! &#xD;(DLC1-Pack)</Text>
+        <LineId>1600000879</LineId> 
+    </Text>
+
+    <!-- Specialist AE-Figures-R -->
+    <Text>
+        <Text>Specialist AE-Figures-R</Text>
+        <LineId>1600000874</LineId> <!-- <GUID>1600000874</GUID> -->
+    </Text>
+    <!-- Description -->
+    <Text>
+        <Text>Test Text. Meb Meb! &#xD;(DLC1-Pack)</Text>
+        <LineId>1600000875</LineId> 
+    </Text>
+
+    <!-- Specialist AE-FuelC-Belief-R -->
+    <Text>
+        <Text>Specialist AE-FuelC-Belief-R</Text>
+        <LineId>1600000866</LineId> <!-- <GUID>1600000866</GUID> -->
+    </Text>
+    <!-- Description -->
+    <Text>
+        <Text>Test Text. Meb Meb! &#xD;(DLC1-Pack)</Text>
+        <LineId>1600000867</LineId> 
+    </Text>
+
+    <!-- Specialist AE-MinorVulcanShrine-R -->
+    <Text>
+        <Text>Specialist AE-MinorVulcanShrine-R</Text>
+        <LineId>1600000849</LineId> <!-- <GUID>1600000849</GUID> -->
+    </Text>
+    <!-- Description -->
+    <Text>
+        <Text>Test Text. Meb Meb! &#xD;(DLC1-Pack)</Text>
+        <LineId>1600000850</LineId> 
+    </Text>
+
+
+    
+    </ModOp>
+</ModOps>

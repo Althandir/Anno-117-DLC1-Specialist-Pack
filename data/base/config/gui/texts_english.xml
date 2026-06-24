@@ -5,7 +5,7 @@
     <!-- Specialist AddObsi-Landside-C -->
     <!-- Title -->
     <Text>
-        <Text>Specialist AddObsi-Landside-C</Text>
+        <Text>Ashes-Covered Farmer</Text>
         <LineId>1600000886</LineId> <!-- <GUID>1600000886</GUID> -->
     </Text>
     <!-- Description -->
@@ -17,7 +17,7 @@
     <!-- Specialist AE-ReInput-Boards-WeaponRObsi-C -->
     <!-- Title -->
     <Text>
-        <Text>Specialist AE-ReInput-Boards-WeaponRObsi-C</Text>
+        <Text>Latrunculi-Stone Sharpener</Text>
         <LineId>1600000845</LineId> <!-- <GUID>1600000845</GUID> -->
     </Text>
     <!-- Description -->
@@ -29,7 +29,7 @@
     <!-- Specialist AE-ReInput-Figur-ArmorRObsi-C -->
     <!-- Title -->
     <Text>
-        <Text>Specialist AE-ReInput-Figur-ArmorRObsi-C</Text>
+        <Text>Armored Figure Artist</Text>
         <LineId>1600000839</LineId> <!-- <GUID>1600000839</GUID> -->
     </Text>
     <!-- Description -->
@@ -43,7 +43,7 @@
     <!-- Specialist AE-TempleVulcan-E -->
     <!-- Title -->
     <Text>
-        <Text>Specialist AE-TempleVulcan-E</Text>
+        <Text>Priestess of Vulcan</Text>
         <LineId>1600000839</LineId> <!-- <GUID>1600000839</GUID> -->
     </Text>
     <!-- Description -->
@@ -54,7 +54,7 @@
 
     <!-- Specialist NR-Inc-Boards-E -->
     <Text>
-        <Text>Specialist NR-Inc-Boards-E</Text>
+        <Text>PlaceholderName, Latrunculi Teacher</Text>
         <LineId>1600000843</LineId> <!-- <GUID>1600000843</GUID> -->
     </Text>
     <!-- Description -->
@@ -65,7 +65,7 @@
 
     <!-- Specialist NR-Inc-Figures-E -->
     <Text>
-        <Text>Specialist NR-Inc-Figures-E</Text>
+        <Text>PlaceholderName, Collector of holy Figures</Text>
         <LineId>1600000837</LineId> <!-- <GUID>1600000837</GUID> -->
     </Text>
     <!-- Description -->
@@ -76,7 +76,7 @@
 
     <!-- Specialist Prod-Vulcan-E -->
     <Text>
-        <Text>Specialist Prod-Vulcan-E</Text>
+        <Text>PlaceholderName, Vulcan Blessed Miner</Text>
         <LineId>1600000860</LineId> <!-- <GUID>1600000860</GUID> -->
     </Text>
     <!-- Description -->
@@ -87,7 +87,7 @@
 
     <!-- Specialist Upkeep-FuelConsumer-E -->
     <Text>
-        <Text>Specialist Upkeep-FuelConsumer-E</Text>
+        <Text>PlaceholderName, The Ever-Warm One</Text>
         <LineId>1600000862</LineId> <!-- <GUID>1600000862</GUID> -->
     </Text>
     <!-- Description -->
@@ -100,7 +100,7 @@
 
     <!-- Specialist AE-MajorVulcanShrine-L -->
     <Text>
-        <Text>Specialist AE-MajorVulcanShrine-L</Text>
+        <Text>Vulcan's Wandering Priestess</Text>
         <LineId>1600000853</LineId> <!-- <GUID>1600000862</GUID> -->
     </Text>
     <!-- Description -->
@@ -116,7 +116,7 @@
 
     <!-- Specialist Prod-CoalMine-L -->
     <Text>
-        <Text>Specialist Prod-CoalMine-L</Text>
+        <Text>Overzealous Coal Miner</Text>
         <LineId>1600000864</LineId> <!-- <GUID>1600000864</GUID> -->
     </Text>
     <!-- Description -->
@@ -132,7 +132,7 @@
 
     <!-- Specialist ReInput-BoFig-IronRObsi-L -->
     <Text>
-        <Text>Specialist ReInput-BoFig-IronRObsi-L</Text>
+        <Text>PlaceholderName, Holy Smith of Vulcan</Text>
         <LineId>1600000871</LineId> <!-- <GUID>1600000862</GUID> -->
     </Text>
     <!-- Description -->
@@ -150,7 +150,7 @@
 
     <!-- Specialist AE-Boards-R -->
     <Text>
-        <Text>Specialist AE-Boards-R</Text>
+        <Text>Latrunculi Tournament Organizer</Text>
         <LineId>1600000878</LineId> <!-- <GUID>1600000878</GUID> -->
     </Text>
     <!-- Description -->
@@ -161,7 +161,7 @@
 
     <!-- Specialist AE-Figures-R -->
     <Text>
-        <Text>Specialist AE-Figures-R</Text>
+        <Text>Mindful Obsidian Craftsman</Text>
         <LineId>1600000874</LineId> <!-- <GUID>1600000874</GUID> -->
     </Text>
     <!-- Description -->
@@ -172,7 +172,7 @@
 
     <!-- Specialist AE-FuelC-Belief-R -->
     <Text>
-        <Text>Specialist AE-FuelC-Belief-R</Text>
+        <Text>Vulcan's Igniter</Text>
         <LineId>1600000866</LineId> <!-- <GUID>1600000866</GUID> -->
     </Text>
     <!-- Description -->
@@ -183,7 +183,7 @@
 
     <!-- Specialist AE-MinorVulcanShrine-R -->
     <Text>
-        <Text>Specialist AE-MinorVulcanShrine-R</Text>
+        <Text>Worshipper of Vulcan</Text>
         <LineId>1600000849</LineId> <!-- <GUID>1600000849</GUID> -->
     </Text>
     <!-- Description -->
