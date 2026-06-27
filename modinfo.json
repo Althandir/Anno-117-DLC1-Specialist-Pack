@@ -75,7 +75,7 @@
   {
     "CanSpawnAtAllTraders":
     {
-      "label":"Controlls if the Specialists can appear on basegame traders. Info: At these traders you pay with denarii. Not Obsidian. The price balance is not really given with basegame traders. You can increase the prices but then you might not be able to afford them at Caecilia. See TradePrice_Common for futher explaination on why.",
+      "label":"Controlls if the Specialists can appear on basegame traders. Info: At other traders you pay with denarii. Not Obsidian. The price balance is not really given with basegame traders. You can increase the prices but then you might not be able to afford them at Caecilia. See TradePrice_Common for futher explaination on why.",
       "type": "toggle",
       "default": "false"
     },

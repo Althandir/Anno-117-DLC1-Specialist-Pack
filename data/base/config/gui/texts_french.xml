@@ -10,31 +10,31 @@
     </Text>
     <!-- Description -->
     <Text>
-        <Text>Test Text. Meb Meb! &#xD;(DLC1-Pack)</Text>
+        <Text>Even a ash-covered Farm sometimes yields a grain of corn. Or Obsidian. &#xD;(DLC1-Pack)</Text>
         <LineId>1600000887</LineId> 
     </Text>
 
     <!-- Specialist AE-ReInput-Boards-WeaponRObsi-C -->
     <!-- Title -->
     <Text>
-        <Text>Specialist AE-ReInput-Boards-WeaponRObsi-C</Text>
+        <Text>Latrunculi-Stone Sharpener</Text>
         <LineId>1600000845</LineId> <!-- <GUID>1600000845</GUID> -->
     </Text>
     <!-- Description -->
     <Text>
-        <Text>Test Text. Meb Meb! &#xD;(DLC1-Pack)</Text>
+        <Text>Beware. His game pieces can actually kill. &#xD;(DLC1-Pack)</Text>
         <LineId>1600000846</LineId> 
     </Text>
 
     <!-- Specialist AE-ReInput-Figur-ArmorRObsi-C -->
     <!-- Title -->
     <Text>
-        <Text>Specialist AE-ReInput-Figur-ArmorRObsi-C</Text>
+        <Text>Armored Figure Artist</Text>
         <LineId>1600000839</LineId> <!-- <GUID>1600000839</GUID> -->
     </Text>
     <!-- Description -->
     <Text>
-        <Text>Test Text. Meb Meb! &#xD;(DLC1-Pack)</Text>
+        <Text>His muse is the worn armor of various legionnaires. &#xD;(DLC1-Pack)</Text>
         <LineId>1600000840</LineId> 
     </Text>
 
@@ -43,56 +43,56 @@
     <!-- Specialist AE-TempleVulcan-E -->
     <!-- Title -->
     <Text>
-        <Text>Specialist AE-TempleVulcan-E</Text>
+        <Text>Priestess of Vulcan</Text>
         <LineId>1600000839</LineId> <!-- <GUID>1600000839</GUID> -->
     </Text>
     <!-- Description -->
     <Text>
-        <Text>Test Text. Meb Meb! &#xD;(DLC1-Pack)</Text>
+        <Text>Even when Vulcan is angry, she remains true to her beliefs. &#xD;(DLC1-Pack)</Text>
         <LineId>1600000840</LineId> 
     </Text>
 
     <!-- Specialist NR-Inc-Boards-E -->
     <Text>
-        <Text>Specialist NR-Inc-Boards-E</Text>
+        <Text>Latronia, Latrunculi Teacher</Text>
         <LineId>1600000843</LineId> <!-- <GUID>1600000843</GUID> -->
     </Text>
     <!-- Description -->
     <Text>
-        <Text>Test Text. Meb Meb! &#xD;(DLC1-Pack)</Text>
+        <Text>"Not many people know the rules of Latrunculi. Let me help you with that." &#xD;(DLC1-Pack)</Text>
         <LineId>1600000844</LineId> 
     </Text>
 
     <!-- Specialist NR-Inc-Figures-E -->
     <Text>
-        <Text>Specialist NR-Inc-Figures-E</Text>
+        <Text>Marcus Obsidius Sacratus, Collector of Holy Figures</Text>
         <LineId>1600000837</LineId> <!-- <GUID>1600000837</GUID> -->
     </Text>
     <!-- Description -->
     <Text>
-        <Text>Test Text. Meb Meb! &#xD;(DLC1-Pack)</Text>
+        <Text>"Don't touch! Only Look!" &#xD;(DLC1-Pack)</Text>
         <LineId>1600000838</LineId> 
     </Text>
 
     <!-- Specialist Prod-Vulcan-E -->
     <Text>
-        <Text>Specialist Prod-Vulcan-E</Text>
+        <Text>Gaius Metallicus Vulcanius, Vulcan Blessed Miner</Text>
         <LineId>1600000860</LineId> <!-- <GUID>1600000860</GUID> -->
     </Text>
     <!-- Description -->
     <Text>
-        <Text>Test Text. Meb Meb! &#xD;(DLC1-Pack)</Text>
+        <Text>Leaves no stone unturned. &#xD;(DLC1-Pack)</Text>
         <LineId>1600000861</LineId> 
     </Text>
 
     <!-- Specialist Upkeep-FuelConsumer-E -->
     <Text>
-        <Text>Specialist Upkeep-FuelConsumer-E</Text>
+        <Text>Fornaxius Semperardens, The Ever-Warm One</Text>
         <LineId>1600000862</LineId> <!-- <GUID>1600000862</GUID> -->
     </Text>
     <!-- Description -->
     <Text>
-        <Text>Test Text. Meb Meb! &#xD;(DLC1-Pack)</Text>
+        <Text>With him, you won't have to worry about your ovens anymore. &#xD;(DLC1-Pack)</Text>
         <LineId>1600000863</LineId> 
     </Text>
 
@@ -100,49 +100,49 @@
 
     <!-- Specialist AE-MajorVulcanShrine-L -->
     <Text>
-        <Text>Specialist AE-MajorVulcanShrine-L</Text>
+        <Text>Vulcan's Wandering Priestess</Text>
         <LineId>1600000853</LineId> <!-- <GUID>1600000862</GUID> -->
     </Text>
     <!-- Description -->
     <Text>
-        <Text>Test Text. Meb Meb! &#xD;(DLC1-Pack)</Text>
+        <Text>She survived the fury of Vulcan multiple times. Now, she reminds people to never underestimate him. &#xD;(DLC1-Pack)</Text>
         <LineId>1600000854</LineId> 
     </Text>
     <!-- Boost Description -->
     <Text>
-        <Text>Test Text. Meb Meb!</Text>
+        <Text>She needs more holy sites determined to Vulcan. (Own 5 Shrines of Vulcan on the Island)</Text>
         <LineId>1600000855</LineId> 
     </Text>
 
     <!-- Specialist Prod-CoalMine-L -->
     <Text>
-        <Text>Specialist Prod-CoalMine-L</Text>
+        <Text>Overzealous Singing Coal Miner</Text>
         <LineId>1600000864</LineId> <!-- <GUID>1600000864</GUID> -->
     </Text>
     <!-- Description -->
     <Text>
-        <Text>Test Text. Meb Meb! &#xD;(DLC1-Pack)</Text>
+        <Text>"Coal, Coal, Coal, ... Coal, Coal - Coal, Coal, lalala, Coal, Coal, tralala, ..." &#xD;(DLC1-Pack)</Text>
         <LineId>1600000865</LineId> 
     </Text>
     <!-- Boost Description -->
     <Text>
-        <Text>Test Text. Meb Meb!</Text>
+        <Text>"If I can't store the coal, I fear the fury of Vulcan!" (8x Warehouse on Island)</Text>
         <LineId>1600000870</LineId> 
     </Text>
 
     <!-- Specialist ReInput-BoFig-IronRObsi-L -->
     <Text>
-        <Text>Specialist ReInput-BoFig-IronRObsi-L</Text>
+        <Text>Valerius Flamma, Holy Smith of Vulcan</Text>
         <LineId>1600000871</LineId> <!-- <GUID>1600000862</GUID> -->
     </Text>
     <!-- Description -->
     <Text>
-        <Text>Test Text. Meb Meb! &#xD;(DLC1-Pack)</Text>
+        <Text>Keeper of the hidden formula to make Obsidian obsolete. &#xD;(DLC1-Pack)</Text>
         <LineId>1600000872</LineId> 
     </Text>
     <!-- Boost Description -->
     <Text>
-        <Text>Test Text. Meb Meb!</Text>
+        <Text>Requires a steady supply of Iron. (8x Iron Smelters on Island)</Text>
         <LineId>1600000873</LineId> 
     </Text>
 
@@ -150,45 +150,45 @@
 
     <!-- Specialist AE-Boards-R -->
     <Text>
-        <Text>Specialist AE-Boards-R</Text>
+        <Text>Latrunculi Tournament Organizer</Text>
         <LineId>1600000878</LineId> <!-- <GUID>1600000878</GUID> -->
     </Text>
     <!-- Description -->
     <Text>
-        <Text>Test Text. Meb Meb! &#xD;(DLC1-Pack)</Text>
+        <Text>With a good Latrunculi Tournament, we can find good strategic minds. &#xD;(DLC1-Pack)</Text>
         <LineId>1600000879</LineId> 
     </Text>
 
     <!-- Specialist AE-Figures-R -->
     <Text>
-        <Text>Specialist AE-Figures-R</Text>
+        <Text>Mindful Obsidian Caelator</Text>
         <LineId>1600000874</LineId> <!-- <GUID>1600000874</GUID> -->
     </Text>
     <!-- Description -->
     <Text>
-        <Text>Test Text. Meb Meb! &#xD;(DLC1-Pack)</Text>
+        <Text>"Watch out! Obsidian is very sharp. Keep it slow and your body will thank you." &#xD;(DLC1-Pack)</Text>
         <LineId>1600000875</LineId> 
     </Text>
 
     <!-- Specialist AE-FuelC-Belief-R -->
     <Text>
-        <Text>Specialist AE-FuelC-Belief-R</Text>
+        <Text>Vulcan's Igniter</Text>
         <LineId>1600000866</LineId> <!-- <GUID>1600000866</GUID> -->
     </Text>
     <!-- Description -->
     <Text>
-        <Text>Test Text. Meb Meb! &#xD;(DLC1-Pack)</Text>
+        <Text>"Let's keep these ovens burning! ... Well now the house is the oven... A respectable offer for Vulcan!" &#xD;(DLC1-Pack)</Text>
         <LineId>1600000867</LineId> 
     </Text>
 
     <!-- Specialist AE-MinorVulcanShrine-R -->
     <Text>
-        <Text>Specialist AE-MinorVulcanShrine-R</Text>
+        <Text>Worshipper of Vulcan</Text>
         <LineId>1600000849</LineId> <!-- <GUID>1600000849</GUID> -->
     </Text>
     <!-- Description -->
     <Text>
-        <Text>Test Text. Meb Meb! &#xD;(DLC1-Pack)</Text>
+        <Text>"Oh please Vulcan! Show me your power and cover me with your dark blanket!" &#xD;(DLC1-Pack)</Text>
         <LineId>1600000850</LineId> 
     </Text>
 
