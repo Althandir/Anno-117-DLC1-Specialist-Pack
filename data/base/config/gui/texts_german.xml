@@ -54,7 +54,7 @@
 
     <!-- Specialist NR-Inc-Boards-E -->
     <Text>
-        <Text>PlaceholderName, Latrunculi Lehrerin</Text>
+        <Text>Latronia, Latrunculi Lehrerin</Text>
         <LineId>1600000843</LineId> <!-- <GUID>1600000843</GUID> -->
     </Text>
     <!-- Description -->
@@ -65,7 +65,7 @@
 
     <!-- Specialist NR-Inc-Figures-E -->
     <Text>
-        <Text>PlaceholderName, Sammler heiliger Figuren</Text>
+        <Text>Marcus Obsidius Sacratus, Sammler heiliger Figuren</Text>
         <LineId>1600000837</LineId> <!-- <GUID>1600000837</GUID> -->
     </Text>
     <!-- Description -->
@@ -76,7 +76,7 @@
 
     <!-- Specialist Prod-Vulcan-E -->
     <Text>
-        <Text>PlaceholderName, von Vulcan gesegnete Bergfrau </Text>
+        <Text>Gaius Metallicus Vulcanius, von Vulcan gesegnete Bergfrau </Text>
         <LineId>1600000860</LineId> <!-- <GUID>1600000860</GUID> -->
     </Text>
     <!-- Description -->
@@ -87,7 +87,7 @@
 
     <!-- Specialist Upkeep-FuelConsumer-E -->
     <Text>
-        <Text>PlaceholderName, der Immer-Warme</Text>
+        <Text>Fornaxius Semperardens, der Immer-Brennende</Text>
         <LineId>1600000862</LineId> <!-- <GUID>1600000862</GUID> -->
     </Text>
     <!-- Description -->
@@ -105,12 +105,12 @@
     </Text>
     <!-- Description -->
     <Text>
-        <Text>Test Text. Meb Meb! &#xD;(DLC1-Pack)</Text>
+        <Text>Sie hat die Wut von Vulcan schon mehrfach überlebt. Nun erinnert sie die Menschen daran, ihn niemals zu unterschätzen. &#xD;(DLC1-Pack)</Text>
         <LineId>1600000854</LineId> 
     </Text>
     <!-- Boost Description -->
     <Text>
-        <Text>Test Text. Meb Meb!</Text>
+        <Text>Sie braucht mehr heilige Stätten die Vulcan gewidmet sind. (Besitze 5 Vulcan-Schreine auf der Insel)</Text>
         <LineId>1600000855</LineId> 
     </Text>
 
@@ -121,28 +121,28 @@
     </Text>
     <!-- Description -->
     <Text>
-        <Text>Test Text. Meb Meb! &#xD;(DLC1-Pack)</Text>
+        <Text>"Kohle, Kohle, Kohle, ... Kohle, Kohle - Kohle, Kohle, lalala, Kohle, Kohle, tralala, ..." &#xD;(DLC1-Pack)</Text>
         <LineId>1600000865</LineId> 
     </Text>
     <!-- Boost Description -->
     <Text>
-        <Text>Test Text. Meb Meb!</Text>
+        <Text>"Wenn ich die Kohle nicht lagern kann, fürchte ich den Zorn des Vulcan!" (8x Warenlager auf Insel)</Text>
         <LineId>1600000870</LineId> 
     </Text>
 
     <!-- Specialist ReInput-BoFig-IronRObsi-L -->
     <Text>
-        <Text>PlaceholderName, Heiliger Schmied des Vulcan</Text>
+        <Text>Valerius Flamma, Heiliger Schmied des Vulcan</Text>
         <LineId>1600000871</LineId> <!-- <GUID>1600000862</GUID> -->
     </Text>
     <!-- Description -->
     <Text>
-        <Text>Test Text. Meb Meb! &#xD;(DLC1-Pack)</Text>
+        <Text>Hüter der geheimen Formel, mit der Obsidian überflüssig wird. &#xD;(DLC1-Pack)</Text>
         <LineId>1600000872</LineId> 
     </Text>
     <!-- Boost Description -->
     <Text>
-        <Text>Test Text. Meb Meb!</Text>
+        <Text>Erfordert eine stetige Versorgung mit Eisen. (8x Schmelzöfen auf der Insel)</Text>
         <LineId>1600000873</LineId> 
     </Text>
 
@@ -155,18 +155,18 @@
     </Text>
     <!-- Description -->
     <Text>
-        <Text>Test Text. Meb Meb! &#xD;(DLC1-Pack)</Text>
+        <Text>Bei einem guten Latrunculi-Turnier lassen sich strategisch begabte Menschen finden. &#xD;(DLC1-Pack)</Text>
         <LineId>1600000879</LineId> 
     </Text>
 
     <!-- Specialist AE-Figures-R -->
     <Text>
-        <Text>Achtsamer Obsidianschleifer</Text>
+        <Text>Achtsamer Obsidianbildhauer</Text>
         <LineId>1600000874</LineId> <!-- <GUID>1600000874</GUID> -->
     </Text>
     <!-- Description -->
     <Text>
-        <Text>Test Text. Meb Meb! &#xD;(DLC1-Pack)</Text>
+        <Text>"Vorsicht! Obsidian ist sehr scharf. Geht es langsam an, dann wird euer Körper es euch danken." &#xD;(DLC1-Pack)</Text>
         <LineId>1600000875</LineId> 
     </Text>
 
@@ -177,7 +177,7 @@
     </Text>
     <!-- Description -->
     <Text>
-        <Text>Test Text. Meb Meb! &#xD;(DLC1-Pack)</Text>
+        <Text>"Lasst uns diese Öfen am Laufen halten! … Nun, jetzt ist das Haus der Ofen … Ein respektables Opfer für Vulcan!" &#xD;(DLC1-Pack)</Text>
         <LineId>1600000867</LineId> 
     </Text>
 
@@ -188,7 +188,7 @@
     </Text>
     <!-- Description -->
     <Text>
-        <Text>Test Text. Meb Meb! &#xD;(DLC1-Pack)</Text>
+        <Text>"Oh bitte, Vulcan! Zeig mir deine Macht und hülle mich in deinen dunklen Mantel!" &#xD;(DLC1-Pack)</Text>
         <LineId>1600000850</LineId> 
     </Text>
 
