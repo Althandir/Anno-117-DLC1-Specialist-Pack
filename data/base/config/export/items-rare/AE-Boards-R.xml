@@ -21,7 +21,7 @@
                 </Buffs>
                 <Targets> <!-- Targets of Buff -->
                     <Item>
-                        <GUID>145229</GUID>
+                        <GUID>145230</GUID>
                     </Item>
                 </Targets>
                 <HideInGovernorsBar>1</HideInGovernorsBar>
@@ -29,7 +29,7 @@
             <Item>
                 <Niche>Research</Niche> 
                 <TradePrice><ModValue Insert="$TradePrice_Rare"/></TradePrice> 
-                <BarkPool>83312</BarkPool> <!-- <GUID>83312</GUID> -->
+                <BarkPool>83359</BarkPool> <!-- <GUID>83359</GUID> -->
                 <Rarity>Rare</Rarity>
                 <Origin>DLC01</Origin> 
             </Item>

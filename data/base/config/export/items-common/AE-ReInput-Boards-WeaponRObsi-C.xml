@@ -29,7 +29,7 @@
             <Item>
                 <Niche>Economy</Niche> 
                 <TradePrice><ModValue Insert="$TradePrice_Common"/></TradePrice> 
-                <BarkPool>83312</BarkPool> <!-- <GUID>83312</GUID> -->
+                <BarkPool>83338</BarkPool> <!-- <GUID>83338</GUID> -->
                 <Rarity>Common</Rarity>
                 <Origin>DLC01</Origin> 
             </Item>
