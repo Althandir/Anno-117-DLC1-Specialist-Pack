@@ -29,7 +29,7 @@
             <Item>
                 <Niche>Religion</Niche>  
                 <TradePrice><ModValue Insert="$TradePrice_Rare"/></TradePrice> 
-                <BarkPool>80244</BarkPool> <!-- <GUID>80244</GUID> -->
+                <BarkPool>83297</BarkPool> <!-- <GUID>83297</GUID> -->
                 <Rarity>Rare</Rarity>
                 <Origin>DLC01</Origin>  
             </Item>
