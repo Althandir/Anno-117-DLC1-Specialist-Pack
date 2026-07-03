@@ -44,12 +44,12 @@
     <!-- Title -->
     <Text>
         <Text>Priestess of Vulcan</Text>
-        <LineId>1600000839</LineId> <!-- <GUID>1600000839</GUID> -->
+        <LineId>1600000882</LineId> <!-- <GUID>1600000882</GUID> -->
     </Text>
     <!-- Description -->
     <Text>
         <Text>Even when Vulcan is angry, she remains true to her beliefs. &#xD;(DLC1-Pack)</Text>
-        <LineId>1600000840</LineId> 
+        <LineId>1600000883</LineId> 
     </Text>
 
     <!-- Specialist NR-Inc-Boards-E -->
