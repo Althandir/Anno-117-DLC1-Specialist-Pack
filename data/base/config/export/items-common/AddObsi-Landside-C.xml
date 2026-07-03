@@ -72,7 +72,7 @@
                   <AdditionalOutput>
                     <Item>
                         <Product>145102</Product>
-                        <AdditionalOutputCycle>50</AdditionalOutputCycle>
+                        <AdditionalOutputCycle>40</AdditionalOutputCycle>
                         <Amount>1</Amount>
                     </Item>
                   </AdditionalOutput>

@@ -110,6 +110,7 @@
                 </Text>
                 <Buff>
                     <SourceCategory>Item</SourceCategory>
+                    <!-- Seems not to work?
                     <BlocksOtherBuffs>
                         <Item>
                             <GUID>1600000846</GUID>
@@ -118,6 +119,7 @@
                             <GUID>1600000840</GUID>
                         </Item>
                     </BlocksOtherBuffs>
+                    -->
                 </Buff>
                 <FactoryUpgrade>
                     <ProductivityUpgrade>
