@@ -110,6 +110,14 @@
                 </Text>
                 <Buff>
                     <SourceCategory>Item</SourceCategory>
+                    <BlocksOtherBuffs>
+                        <Item>
+                            <GUID>1600000846</GUID>
+                        </Item>
+                        <Item>
+                            <GUID>1600000840</GUID>
+                        </Item>
+                    </BlocksOtherBuffs>
                 </Buff>
                 <FactoryUpgrade>
                     <ProductivityUpgrade>
