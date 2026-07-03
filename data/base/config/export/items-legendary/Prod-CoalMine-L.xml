@@ -139,6 +139,8 @@
                         <Value><ModValue Insert="$Productivity_CoalMine-L_Boosted"/></Value>
                         <Percental>1</Percental>
                     </ProductivityUpgrade>
+                </FactoryUpgrade>
+                <MaintenanceUpgrade>
                     <MaintenanceFactorUpgrade>
                         <Value><ModValue Insert="$MaintenanceFactorUpgrade_CoalMine-L_Boosted"/></Value>
                         <Percental>1</Percental>
@@ -147,7 +149,7 @@
                         <Value><ModValue Insert="$WorkforceFactorUpgrade_CoalMine-L_Boosted"/></Value>
                         <Percental>1</Percental>
                     </WorkforceMaintenanceFactorUpgrade>
-                </FactoryUpgrade>
+                </MaintenanceUpgrade>
             </Values>
         </Asset>
     </ModOp>
