@@ -145,12 +145,12 @@
     "ShrineDeity_Rare_BuffValue":
     {
       "label": "Value for all Buff granted by Rare Shrine Specialists. Info: Value is Doubled for Deities only giving one Attribute (e.g Mercury's Shrine Buff)",
-      "default": "0.8"
+      "default": "0.5"
     },
     "ShrineDeity_Legendary_BuffValue_NonBoosted":
     {
       "label": "Value for all Buff granted by Legendary Shrine Specialists. Info: Value is Doubled for Deities only giving one Attribute (e.g Mercury's Shrine Buff)",
-      "default": "1.5"
+      "default": "1.0"
     },
     "ShrineDeity_Legendary_BuffValue_Boosted":
     {
