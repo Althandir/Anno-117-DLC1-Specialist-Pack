@@ -104,7 +104,7 @@
     },
     "ConsumptionModifier":
     {
-      "default": "20"
+      "default": "15.0"
     },
     "Productivity_VulcanOther":
     {
