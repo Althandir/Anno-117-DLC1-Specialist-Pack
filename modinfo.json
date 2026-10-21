@@ -9,18 +9,12 @@
   ],
   "Difficulty": "easier",
   "Dependencies": {
-    "Require": ["PropheciesOfAsh", "DLC 1"],
+    "Require": ["PropheciesOfAsh"],
     "Optional": [],
     "LoadAfter": [],
     "Deprecate": [],
     "Incompatible": []
   },
-  "DLCDependencies":[
-    {
-      "DLC":"PropheciesOfAsh",
-      "Dependant":"required"
-    }
-  ],
   "GameSetup": {
     "RequiresNewGame": false,
     "SafeToRemove": false,
@@ -101,10 +95,6 @@
     "TradePrice_Legendary":
     {
       "default": "33600"
-    },
-    "ConsumptionModifier":
-    {
-      "default": "15.0"
     },
     "Productivity_VulcanOther":
     {

@@ -7,8 +7,8 @@
             <Values>
             <Standard>
                 <GUID>1600000837</GUID>
-                <Name>Specialist NR-Inc-Figures-E</Name>
-                <IconFilename>data/base/graphics/icons/m_NR-Inc-Figures-E.png</IconFilename>
+                <Name>Specialist NR-Figures-E</Name>
+                <IconFilename>data/base/graphics/icons/m_NR-Figures-E.png</IconFilename>
                 <InfoDescription>1600000838</InfoDescription>
             </Standard>
             <Effect>
@@ -53,8 +53,8 @@
             <Values>
                 <Standard>
                     <GUID>1600000838</GUID>
-                    <Name>Specialist NR-Inc-Figures-E BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/m_NR-Inc-Figures-E.png</IconFilename>
+                    <Name>Specialist NR-Figures-E BuildingBuff</Name>
+                    <IconFilename>data/base/graphics/icons/m_NR-Figures-E.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000837</OasisId>
@@ -63,12 +63,6 @@
                     <SourceCategory>Item</SourceCategory>
                 </Buff>
                 <ResidenceUpgrade>
-                    <GoodConsumptionUpgrade>
-                        <Item>
-                            <ProvidedNeed>145220</ProvidedNeed>
-                            <AmountInPercent><ModValue Insert="$ConsumptionModifier"/></AmountInPercent>
-                        </Item>
-                    </GoodConsumptionUpgrade>
                     <NeedProvidedNeedAttributes>
                         <ChangeNeedAttributesOf>
                             <Item>
@@ -78,19 +72,19 @@
                         <AdditionalNeedAttributes>
                             <Money>
                                 <AmountOrPercent>
-                                    <Value>2</Value>
+                                    <Value>1</Value>
                                     <Percental>0</Percental>
                                 </AmountOrPercent>
                             </Money>
                             <Belief>
                                 <AmountOrPercent>
-                                    <Value>3</Value>
+                                    <Value>2</Value>
                                     <Percental>0</Percental>
                                 </AmountOrPercent>
                             </Belief>
                             <Happiness>
                                 <AmountOrPercent>
-                                    <Value>2</Value>
+                                    <Value>1</Value>
                                     <Percental>0</Percental>
                                 </AmountOrPercent>
                             </Happiness>

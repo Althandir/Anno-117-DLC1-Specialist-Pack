@@ -52,7 +52,7 @@
         <LineId>1600000883</LineId> 
     </Text>
 
-    <!-- Specialist NR-Inc-Boards-E -->
+    <!-- Specialist NR-Boards-E -->
     <Text>
         <Text>Latronia, Latrunculi Lehrerin</Text>
         <LineId>1600000843</LineId> <!-- <GUID>1600000843</GUID> -->
@@ -63,7 +63,7 @@
         <LineId>1600000844</LineId> 
     </Text>
 
-    <!-- Specialist NR-Inc-Figures-E -->
+    <!-- Specialist NR-Figures-E -->
     <Text>
         <Text>Marcus Obsidius Sacratus, Sammler heiliger Figuren</Text>
         <LineId>1600000837</LineId> <!-- <GUID>1600000837</GUID> -->
