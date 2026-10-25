@@ -8,7 +8,7 @@
             <Standard>
                 <GUID>1600000864</GUID>
                 <Name>Specialist Prod-CoalMine-L</Name>
-                <IconFilename>data/base/graphics/icons/m_Prod-CoalMine-L.png</IconFilename>
+                <IconFilename>data/base/graphics/icons/DLC1/m_Prod-CoalMine-L.png</IconFilename>
                 <InfoDescription>1600000865</InfoDescription>
             </Standard>
             <Effect>
@@ -100,7 +100,7 @@
                 <Standard>
                     <GUID>1600000865</GUID>
                     <Name>Specialist Prod-CoalMine-L BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/m_Prod-CoalMine-L.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/DLC1/m_Prod-CoalMine-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000864</OasisId>
@@ -126,7 +126,7 @@
                 <Standard>
                     <GUID>1600000870</GUID>
                     <Name>Specialist Prod-CoalMine-L Boosted BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/m_Prod-CoalMine-L.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/DLC1/m_Prod-CoalMine-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000864</OasisId>

@@ -8,7 +8,7 @@
             <Standard>
                 <GUID>1600000853</GUID>
                 <Name>Specialist AE-MajorVulcanShrine-L</Name>
-                <IconFilename>data/base/graphics/icons/f_AE-MajorVulcanShrine-L.png</IconFilename>
+                <IconFilename>data/base/graphics/icons/DLC1/f_AE-MajorVulcanShrine-L.png</IconFilename>
                 <InfoDescription>1600000854</InfoDescription>
             </Standard>
             <Effect>
@@ -101,7 +101,7 @@
                 <Standard>
                     <GUID>1600000854</GUID>
                     <Name>Specialist AE-MajorVulcanShrine-L BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/f_AE-MajorVulcanShrine-L.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/DLC1/f_AE-MajorVulcanShrine-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000853</OasisId>
@@ -129,7 +129,7 @@
                 <Standard>
                     <GUID>1600000855</GUID>
                     <Name>Specialist AE-MajorVulcanShrine-L FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/f_AE-MajorVulcanShrine-L.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/DLC1/f_AE-MajorVulcanShrine-L.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>StreetDistance</EffectScope>
@@ -161,7 +161,7 @@
                 <Standard>
                     <GUID>1600000856</GUID>
                     <Name>Specialist AE-MajorVulcanShrine-L FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/f_AE-MajorVulcanShrine-L.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/DLC1/f_AE-MajorVulcanShrine-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000853</OasisId>
@@ -193,7 +193,7 @@
                 <Standard>
                     <GUID>1600000857</GUID>
                     <Name>Specialist AE-MajorVulcanShrine-L Boosted BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/f_AE-MajorVulcanShrine-L.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/DLC1/f_AE-MajorVulcanShrine-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000853</OasisId>
@@ -221,7 +221,7 @@
                 <Standard>
                     <GUID>1600000858</GUID>
                     <Name>Specialist AE-MajorVulcanShrine-L Boosted FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/f_AE-MajorVulcanShrine-L.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/DLC1/f_AE-MajorVulcanShrine-L.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>StreetDistance</EffectScope>
@@ -253,7 +253,7 @@
                 <Standard>
                     <GUID>1600000859</GUID>
                     <Name>Specialist AE-MajorVulcanShrine-L Boosted FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/f_AE-MajorVulcanShrine-L.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/DLC1/f_AE-MajorVulcanShrine-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000853</OasisId>

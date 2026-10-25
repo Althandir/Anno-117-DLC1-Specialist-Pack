@@ -8,7 +8,7 @@
             <Standard>
                 <GUID>1600000871</GUID>
                 <Name>Specialist ReInput-BoFig-IronRObsi-L</Name>
-                <IconFilename>data/base/graphics/icons/m_ReInput-BoFig-IronRObsi-L.png</IconFilename>
+                <IconFilename>data/base/graphics/icons/DLC1/m_ReInput-BoFig-IronRObsi-L.png</IconFilename>
                 <InfoDescription>1600000872</InfoDescription>
             </Standard>
             <Effect>
@@ -103,7 +103,7 @@
                 <Standard>
                     <GUID>1600000872</GUID>
                     <Name>Specialist ReInput-BoFig-IronRObsi-L BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/m_ReInput-BoFig-IronRObsi-L.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/DLC1/m_ReInput-BoFig-IronRObsi-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000871</OasisId>
@@ -145,7 +145,7 @@
                 <Standard>
                     <GUID>1600000873</GUID>
                     <Name>Specialist ReInput-BoFig-IronRObsi-L Boosted BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/m_ReInput-BoFig-IronRObsi-L.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/DLC1/m_ReInput-BoFig-IronRObsi-L.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000871</OasisId>
