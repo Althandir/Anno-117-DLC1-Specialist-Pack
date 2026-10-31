@@ -47,7 +47,13 @@
         </Item>        
         <Item>
             <Asset>1600000886</Asset>
-        </Item>                      
+        </Item>    
+        <Item>
+            <Asset>1600001211</Asset>
+        </Item>
+        <Item>
+            <Asset>1600001218</Asset>
+        </Item>                   
     </ModOp>
 </Group>
 

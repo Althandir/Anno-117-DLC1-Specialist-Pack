@@ -110,7 +110,7 @@
     },
     "Productivity_BoFig-L":
     {
-      "default": "15"
+      "default": "35"
     },
     "Productivity_AE-R":
     {
@@ -153,6 +153,14 @@
     "ShrineDeity_Legendary_MaintenanceBuff_Boosted":
     {
       "default": "-100"
+    },
+    "ConsumptionModifier_Legendary_NonBoosted":
+    {
+      "default": "-25.0"
+    },
+    "ConsumptionModifier_Legendary_Boosted":
+    {
+      "default": "-33.0"
     }
 
   }
