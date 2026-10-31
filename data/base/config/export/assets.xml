@@ -33,6 +33,8 @@
 
 <!-- Legendary Specialists -->
 <Group>
+    <Include File="items-legendary/AE-Boards-Consum-L.xml" />
+    <Include File="items-legendary/AE-Figures-Consum-L.xml" />
     <Include File="items-legendary/AE-MajorVulcanShrine-L.xml" />
     <Include File="items-legendary/Prod-CoalMine-L.xml" />
     <Include File="items-legendary/ReInput-BoFig-IronRObsi-L.xml" />
