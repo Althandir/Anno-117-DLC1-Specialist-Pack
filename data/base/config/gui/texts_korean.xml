@@ -192,7 +192,37 @@
         <LineId>1600000850</LineId> 
     </Text>
 
+    <!-- Specialist AE-Boards-Consum-L -->
+    <Text>
+        <Text>Calpurnius Furius, Hot-headed Player</Text>
+        <LineId>1600001211</LineId> <!-- <GUID>1600001211</GUID> -->
+    </Text>
+    <!-- Description -->
+    <Text>
+        <Text>Many Boards have fallen to his heated anger. New Boards should be made especially durable. &#xD;(Altdolphin-DLC1-Pack)</Text>
+        <LineId>1600001212</LineId> 
+    </Text>
+    <!-- Boost Description -->
+    <Text>
+        <Text>"How should I play without my Board?!" (150 Boardgames in Storage)</Text>
+        <LineId>1600001213</LineId> 
+    </Text>
 
+    <!-- Specialist AE-Figures-Consum-L -->
+    <Text>
+        <Text>Julius Onychinus, Renowned Sculptor</Text>
+        <LineId>1600001218</LineId> <!-- <GUID>1600001218</GUID> -->
+    </Text>
+    <!-- Description -->
+    <Text>
+        <Text>His figures are a pinacle of their own. &#xD;(Altdolphin-DLC1-Pack)</Text>
+        <LineId>1600001219</LineId> 
+    </Text>
+    <!-- Boost Description -->
+    <Text>
+        <Text>"Only the finest cloth is allowed to touch these statues." (200 Cloth in Storage)</Text>
+        <LineId>1600001220</LineId> 
+    </Text>
     
     </ModOp>
 </ModOps>
