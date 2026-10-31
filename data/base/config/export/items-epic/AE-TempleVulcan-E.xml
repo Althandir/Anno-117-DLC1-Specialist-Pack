@@ -8,7 +8,7 @@
             <Standard>
                 <GUID>1600000882</GUID>
                 <Name>Specialist AE-TempleVulcan-E</Name>
-                <IconFilename>data/base/graphics/icons/f_AE-TempleVulcan-E.png</IconFilename>
+                <IconFilename>data/base/graphics/icons/DLC1/f_AE-TempleVulcan-E.png</IconFilename>
                 <InfoDescription>1600000883</InfoDescription>
             </Standard>
             <Effect>
@@ -54,7 +54,7 @@
                 <Standard>
                     <GUID>1600000883</GUID>
                     <Name>Specialist AE-TempleVulcan-E BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/f_AE-TempleVulcan-E.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/DLC1/f_AE-TempleVulcan-E.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000882</OasisId>
@@ -76,7 +76,7 @@
                 <Standard>
                     <GUID>1600000884</GUID>
                     <Name>Specialist AE-TempleVulcan-E FunctionalEffect</Name>
-                    <IconFilename>data/base/graphics/icons/f_AE-TempleVulcan-E.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/DLC1/f_AE-TempleVulcan-E.png</IconFilename>
                 </Standard>
                 <Effect>
                     <EffectScope>StreetDistance</EffectScope>
@@ -108,7 +108,7 @@
                 <Standard>
                     <GUID>1600000885</GUID>
                     <Name>Specialist AE-TempleVulcan-E FunctionalEffect BuildingBuff</Name>
-                    <IconFilename>data/base/graphics/icons/f_AE-TempleVulcan-E.png</IconFilename>
+                    <IconFilename>data/base/graphics/icons/DLC1/f_AE-TempleVulcan-E.png</IconFilename>
                 </Standard>
                 <Text>
                     <OasisId>1600000882</OasisId>

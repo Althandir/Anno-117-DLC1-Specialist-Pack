@@ -1,0 +1,311 @@
+<ModOps>
+  <!-- Item Definition GUID:1600001218 - 1600001224 | LineID:1600001218 - 1600001220  -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="106410">
+      <Asset>
+        <Template>ItemWithBoost</Template>
+        <Values>
+          <Standard>
+            <GUID>1600001218</GUID>
+            <Name>Specialist AE-Figures-Consum-L</Name>
+            <IconFilename>data/base/graphics/icons/DLC1/AE-Figures-Consum-L.png</IconFilename>
+            <InfoDescription>1600001219</InfoDescription>
+          </Standard>
+          <Effect>
+            <EffectScope>ObjectsInArea</EffectScope>
+            <SourceCategory>Item</SourceCategory>
+            <Buffs>
+              <Item>
+                <GUID>1600001219</GUID>
+              </Item>
+            </Buffs>
+            <Targets> <!-- Targets of Buff -->
+              <Item>
+                <GUID>145229</GUID>
+              </Item>
+            </Targets>
+            <HideInGovernorsBar>1</HideInGovernorsBar>
+          </Effect>
+          <Item>
+            <Niche>Economy</Niche>
+            <TradePrice><ModValue Insert="$TradePrice_Legendary"/></TradePrice>
+            <BarkPool>0</BarkPool> <!-- <GUID>0</GUID> -->
+            <Rarity>Legendary</Rarity>
+          </Item>
+          <Locked>
+            <DefaultLockedState>0</DefaultLockedState>
+          </Locked>
+          <Text>
+            <OasisId>1600001218</OasisId>
+          </Text>
+
+          <ItemWithBoost>
+            <!-- Condition - min. 200 Cloth in Storage -->
+            <BoostCondition>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <PreConditionList>
+                  <Condition>
+                    <Template>ConditionPlayerCounter</Template>
+                    <Values>
+                      <Condition/>
+                      <ConditionPlayerCounter>
+                        <PlayerCounter>GoodsInStock</PlayerCounter>
+                        <Context>2121</Context>
+                        <CounterAmount>200</CounterAmount>
+                        <CounterScope>Area</CounterScope>
+                      </ConditionPlayerCounter>
+                      <ConditionLocationProps/>
+                      <ConditionCounterProps/>
+                      <ConditionPropsComparable/>
+                      <ConditionPropsExaminableObjects/>
+                    </Values>
+                  </Condition>
+                </PreConditionList>
+              </Values>
+            </BoostCondition>
+            <BoostBuffs>
+              <Item>
+                <GUID>1600001222</GUID>
+              </Item>
+            </BoostBuffs>
+            <BoostHint>1600001220</BoostHint>
+          </ItemWithBoost>
+
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
+  <!-- Buff Definitions-->
+  <Group>
+    <!-- Normal Definition -->
+    <ModOp Type="addNextSibling" GUID="80193">
+      <Asset>
+        <Template>BuildingBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>1600001219</GUID>
+            <Name>Specialist AE-Figures-Consum-L BuildingBuff</Name>
+            <IconFilename>data/base/graphics/icons/DLC1/AE-Figures-Consum-L.png</IconFilename>
+          </Standard>
+          <Text>
+            <OasisId>1600001218</OasisId>
+          </Text>
+          <BuildingUpgrade>
+            <AdditionalFunctionalEffect>1600001220</AdditionalFunctionalEffect>
+          </BuildingUpgrade>
+          <Buff>
+            <SourceCategory>Item</SourceCategory>
+          </Buff>
+          <ResidenceUpgrade> <!--Info for Player-->
+            <GoodConsumptionUpgrade>
+              <Item>
+                <ProvidedNeedProduct>2138</ProvidedNeedProduct>
+                <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_NonBoosted"/></AmountInPercent>
+              </Item>
+            </GoodConsumptionUpgrade>
+          </ResidenceUpgrade>
+        </Values>
+      </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="135498">
+      <Asset>
+        <Template>Effect</Template>
+        <Values>
+          <Standard>
+            <GUID>1600001220</GUID>
+            <Name>Specialist AE-Figures-Consum-L FunctionalEffect</Name>
+            <IconFilename>data/base/graphics/icons/DLC1/AE-Figures-Consum-L.png</IconFilename>
+          </Standard>
+          <Effect>
+            <EffectScope>Radius</EffectScope>
+            <SourceCategory>Adjacency</SourceCategory>
+            <Buffs>
+              <Item>
+                <GUID>1600001221</GUID>
+              </Item>
+            </Buffs>
+            <Targets>
+              <Item>
+                <GUID>43097</GUID>
+              </Item>
+            </Targets>
+            <ExcludeEffectSourceGUID>0</ExcludeEffectSourceGUID>
+            <HideInGovernorsBar>1</HideInGovernorsBar>
+          </Effect>
+          <Text>
+            <OasisId>1600001218</OasisId>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="80193">
+      <Asset>
+        <Template>BuildingBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>1600001221</GUID>
+            <Name>Specialist AE-Figures-Consum-L FunctionalEffect BuildingBuff</Name>
+            <IconFilename>data/base/graphics/icons/DLC1/AE-Figures-Consum-L.png</IconFilename>
+          </Standard>
+          <Text>
+            <OasisId>1600001218</OasisId>
+          </Text>
+          <BuildingUpgrade>
+            <AdditionalAttributes>
+              <Prestige>
+                <AmountOrPercent>
+                  <Value>2</Value>
+                  <Percental>0</Percental>
+                </AmountOrPercent>
+              </Prestige>
+              <Belief>
+                <AmountOrPercent>
+                  <Value>2</Value>
+                  <Percental>0</Percental>
+                </AmountOrPercent>
+              </Belief>
+              <Health>
+                <AmountOrPercent>
+                  <Value>-1</Value>
+                  <Percental>0</Percental>
+                </AmountOrPercent>
+              </Health>
+            </AdditionalAttributes>
+          </BuildingUpgrade>
+          <ResidenceUpgrade>
+            <GoodConsumptionUpgrade>
+              <Item>
+                <ProvidedNeedProduct>2138</ProvidedNeedProduct>
+                <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_NonBoosted"/></AmountInPercent>
+              </Item>
+            </GoodConsumptionUpgrade>
+          </ResidenceUpgrade>
+          <Buff>
+            <SourceCategory>Adjacency</SourceCategory>
+          </Buff>
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
+  <Group>
+    <!-- Boosted Definition -->
+    <ModOp Type="addNextSibling" GUID="80193">
+      <Asset>
+        <Template>BuildingBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>1600001222</GUID>
+            <Name>Specialist AE-Figures-Consum-L Boosted BuildingBuff</Name>
+            <IconFilename>data/base/graphics/icons/DLC1/AE-Figures-Consum-L.png</IconFilename>
+          </Standard>
+          <Text>
+            <OasisId>1600001218</OasisId>
+          </Text>
+          <BuildingUpgrade>
+            <AdditionalFunctionalEffect>1600001223</AdditionalFunctionalEffect>
+          </BuildingUpgrade>
+          <Buff>
+            <SourceCategory>Item</SourceCategory>
+          </Buff>
+          <ResidenceUpgrade> <!--Info for Player-->
+            <GoodConsumptionUpgrade>
+              <Item>
+                <ProvidedNeedProduct>2138</ProvidedNeedProduct>
+                <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_Boosted"/></AmountInPercent>
+              </Item>
+            </GoodConsumptionUpgrade>
+          </ResidenceUpgrade>
+        </Values>
+      </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="135498">
+      <Asset>
+        <Template>Effect</Template>
+        <Values>
+          <Standard>
+            <GUID>1600001223</GUID>
+            <Name>Specialist AE-Figures-Consum-L Boosted FunctionalEffect</Name>
+            <IconFilename>data/base/graphics/icons/DLC1/AE-Figures-Consum-L.png</IconFilename>
+          </Standard>
+          <Effect>
+            <EffectScope>Radius</EffectScope>
+            <SourceCategory>Adjacency</SourceCategory>
+            <Buffs>
+              <Item>
+                <GUID>1600001224</GUID>
+              </Item>
+            </Buffs>
+            <Targets>
+              <Item>
+                <GUID>43097</GUID>
+              </Item>
+            </Targets>
+            <ExcludeEffectSourceGUID>0</ExcludeEffectSourceGUID>
+            <HideInGovernorsBar>1</HideInGovernorsBar>
+          </Effect>
+          <Text>
+            <OasisId>1600001218</OasisId>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="80193">
+      <Asset>
+        <Template>BuildingBuff</Template>
+        <Values>
+          <Standard>
+            <GUID>1600001224</GUID>
+            <Name>Specialist AE-Figures-Consum-L Boosted FunctionalEffect BuildingBuff</Name>
+            <IconFilename>data/base/graphics/icons/DLC1/AE-Figures-Consum-L.png</IconFilename>
+          </Standard>
+          <Text>
+            <OasisId>1600001218</OasisId>
+          </Text>
+          <BuildingUpgrade>
+            <AdditionalAttributes>
+              <Prestige>
+                <AmountOrPercent>
+                  <Value>3</Value>
+                  <Percental>0</Percental>
+                </AmountOrPercent>
+              </Prestige>
+              <Belief>
+                <AmountOrPercent>
+                  <Value>3</Value>
+                  <Percental>0</Percental>
+                </AmountOrPercent>
+              </Belief>
+              <Health>
+                <AmountOrPercent>
+                  <Value>-1</Value>
+                  <Percental>0</Percental>
+                </AmountOrPercent>
+              </Health>
+            </AdditionalAttributes>
+          </BuildingUpgrade>
+          <ResidenceUpgrade>
+            <GoodConsumptionUpgrade>
+              <Item>
+                <ProvidedNeedProduct>2138</ProvidedNeedProduct>
+                <AmountInPercent><ModValue Insert="$ConsumptionModifier_Legendary_Boosted"/></AmountInPercent>
+              </Item>
+            </GoodConsumptionUpgrade>
+          </ResidenceUpgrade>
+          <Buff>
+            <SourceCategory>Adjacency</SourceCategory>
+          </Buff>
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
+</ModOps>
+
+

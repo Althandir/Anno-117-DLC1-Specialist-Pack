@@ -1,6 +1,6 @@
 {
   "ModID": "althandir-altdolphin-dlc1-specialists-pack",
-  "Version": "1.0.0",
+  "Version": "1.0.1",
   "Anno": 8,
   "IncompatibleIds": null,
   "ModDependencies": null,
@@ -9,18 +9,11 @@
   ],
   "Difficulty": "easier",
   "Dependencies": {
-    "Require": ["PropheciesOfAsh", "DLC 1"],
+    "Require": ["PropheciesOfAsh"],
     "Optional": [],
     "LoadAfter": [],
-    "Deprecate": [],
-    "Incompatible": []
+    "Deprecate": []
   },
-  "DLCDependencies":[
-    {
-      "DLC":"PropheciesOfAsh",
-      "Dependant":"required"
-    }
-  ],
   "GameSetup": {
     "RequiresNewGame": false,
     "SafeToRemove": false,
@@ -102,10 +95,6 @@
     {
       "default": "33600"
     },
-    "ConsumptionModifier":
-    {
-      "default": "20"
-    },
     "Productivity_VulcanOther":
     {
       "default": "35"
@@ -120,7 +109,7 @@
     },
     "Productivity_BoFig-L":
     {
-      "default": "15"
+      "default": "35"
     },
     "Productivity_AE-R":
     {
@@ -145,16 +134,16 @@
     "ShrineDeity_Rare_BuffValue":
     {
       "label": "Value for all Buff granted by Rare Shrine Specialists. Info: Value is Doubled for Deities only giving one Attribute (e.g Mercury's Shrine Buff)",
-      "default": "0.8"
+      "default": "0.5"
     },
     "ShrineDeity_Legendary_BuffValue_NonBoosted":
     {
       "label": "Value for all Buff granted by Legendary Shrine Specialists. Info: Value is Doubled for Deities only giving one Attribute (e.g Mercury's Shrine Buff)",
-      "default": "1.5"
+      "default": "0.5"
     },
     "ShrineDeity_Legendary_BuffValue_Boosted":
     {
-      "default": "2.0"
+      "default": "1.0"
     },
     "ShrineDeity_Legendary_MaintenanceBuff_NonBoosted":
     {
@@ -163,6 +152,14 @@
     "ShrineDeity_Legendary_MaintenanceBuff_Boosted":
     {
       "default": "-100"
+    },
+    "ConsumptionModifier_Legendary_NonBoosted":
+    {
+      "default": "-25.0"
+    },
+    "ConsumptionModifier_Legendary_Boosted":
+    {
+      "default": "-33.0"
     }
 
   }
