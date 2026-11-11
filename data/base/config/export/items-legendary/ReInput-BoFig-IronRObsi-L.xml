@@ -110,16 +110,6 @@
                 </Text>
                 <Buff>
                     <SourceCategory>Item</SourceCategory>
-                    <!-- Seems not to work?
-                    <BlocksOtherBuffs>
-                        <Item>
-                            <GUID>1600000846</GUID>
-                        </Item>
-                        <Item>
-                            <GUID>1600000840</GUID>
-                        </Item>
-                    </BlocksOtherBuffs>
-                    -->
                 </Buff>
                 <FactoryUpgrade>
                     <ProductivityUpgrade>
@@ -155,16 +145,9 @@
                 </Buff>
                 <FactoryUpgrade>
                     <ProductivityUpgrade>
-                        <Value><ModValue Insert="$Productivity_BoFig-L"/></Value>
+                        <Value><ModValue Insert="$Productivity_BoFig-L_Boosted"/></Value>
                         <Percental>1</Percental>
                     </ProductivityUpgrade>
-                    <AdditionalOutput>
-                        <Item>
-                            <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
-                            <AdditionalOutputCycle>4</AdditionalOutputCycle>
-                            <Amount>1</Amount>
-                        </Item>
-                    </AdditionalOutput>
                     <ReplaceInputs>
                         <Item>
                             <OldInput>145102</OldInput>

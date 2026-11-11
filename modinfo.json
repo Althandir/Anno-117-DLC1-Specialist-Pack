@@ -101,15 +101,19 @@
     },
     "Productivity_CoalMine-L_NonBoosted":
     {
-      "default": "75"
+      "default": "50"
     },
     "Productivity_CoalMine-L_Boosted":
     {
-      "default": "200"
+      "default": "125"
     },
     "Productivity_BoFig-L":
     {
-      "default": "35"
+      "default": "25"
+    },
+    "Productivity_BoFig-L_Boosted":
+    {
+      "default": "60"
     },
     "Productivity_AE-R":
     {
@@ -117,11 +121,11 @@
     },
     "MaintenanceFactorUpgrade_CoalMine-L_Boosted":
     {
-      "default": "-100"
+      "default": "-80"
     },
     "WorkforceFactorUpgrade_CoalMine-L_Boosted":
     {
-      "default": "-100"
+      "default": "-80"
     },
     "MaintenanceFactorUpgrade_FuelConsumer-E":
     {
